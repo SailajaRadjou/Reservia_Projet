@@ -47,7 +47,7 @@ a
 .heberdeco
 {
     border-top: 3px solid #0065FC;
-       
+      
 }
 .actideco:hover
 {
@@ -66,13 +66,17 @@ button
     min-height: 45px;
     font-weight:lighter;
     font-size: 25px;
+    background-color:#0065FC;
+    color: #F2F2F2;
 }
 .search
 {
     min-width: 100px;
     min-height: 45px;
     font-weight:lighter;
-    font-size: 25px;
+    font-size: 20px;
+    border-color: lightgray transparent;
+    text-align: justify;
 }
 .recherche
 {
@@ -80,3 +84,10 @@ button
     
     
 }
+i
+ {
+    background-color: #F2F2F2;
+    padding: 1rem 1.25rem;
+    border-radius: 1rem 0 0 1rem;
+    text-align: center;
+ }  
