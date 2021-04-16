@@ -1,10 +1,10 @@
 header, section
 {
-    margin: 10px 200px 20px;
+    margin: 10px 200px 50px;
 }
 img
 {
-    width: 80px;
+    width: 90px;
     height:50px;
 }
 body
@@ -35,10 +35,9 @@ a
 {
     display: flex;
     align-items:center;
-    font-family: Raleway;
-    /*font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
-    color: #0065fc;*/
+    color: #0065fc;
 }
 #alignheader
 {
@@ -53,5 +52,31 @@ a
 .actideco:hover
 {
     border-top: 3px solid #0065FC;
+    
+}
+h1
+{
+    font-size: 30px;
+    font-weight: bolder;
+}
+button
+{
+    border-radius: 0 1rem 1rem 0;
+    min-width: 100px;
+    min-height: 45px;
+    font-weight:lighter;
+    font-size: 25px;
+}
+.search
+{
+    min-width: 100px;
+    min-height: 45px;
+    font-weight:lighter;
+    font-size: 25px;
+}
+.recherche
+{
+    display: inline-flex;
+    
     
 }
