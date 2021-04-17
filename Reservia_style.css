@@ -91,3 +91,16 @@ i
     border-radius: 1rem 0 0 1rem;
     text-align: center;
  }  
+ .filtrecontent
+ {
+     display: flex;
+     margin-top: 5%;
+     justify-content: space-around;
+
+ }
+ .alignfiltre
+ {
+     display: flex;
+     align-items: center;
+     font-size: 20px;
+ }
