@@ -85,22 +85,39 @@ button
     
 }
 i
- {
+{
     background-color: #F2F2F2;
     padding: 1rem 1.25rem;
     border-radius: 1rem 0 0 1rem;
     text-align: center;
- }  
- .filtrecontent
- {
-     display: flex;
-     margin-top: 5%;
-     justify-content: space-around;
-
- }
- .alignfiltre
- {
-     display: flex;
-     align-items: center;
-     font-size: 20px;
- }
+}  
+div i
+{
+    border-radius: 2rem 2rem 2rem 2rem; 
+    background-color: #DEEBFF;
+    font-size: 20px;
+    color: #0065FC;
+}
+.filtrecontent
+{
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-around;
+}
+.alignfiltre
+{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.economiquefiltre, .famillialfiltre, .romantiquefiltre, .animalfiltre
+{
+    display: flex;
+    align-items: center;
+    border: 2px lightgray solid;
+    border-radius: 2rem 2rem 2rem 2rem;
+    font-size: 15px;
+    padding-right: 5px;
+    min-width: 150px;
+}
