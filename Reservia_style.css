@@ -1,6 +1,7 @@
-header, section
+header, .premiersection, .hebergementetplus 
 {
     margin: 10px 200px 50px;
+    
 }
 .logoreservia
 {
@@ -155,7 +156,7 @@ div i
     font-size: 20px;
     margin-left: 20px;
 }
-.hebergementtitle, .afficheplus
+.hebergementtitle, .afficheplus, .asidetitle
 {
     margin:20px 30px;
     font-size: 20px;
@@ -163,18 +164,16 @@ div i
 }
 .hebergement
 {
-    border: 1px groove;
     border-radius:2rem;
     min-height: 500px;
     width:70%;
     background-color: #F2F2F2;
-    max-width: 700px;
+    max-width: 1000px;
 }
 .leshebergements
 {
-    margin:10px;
+    margin:15px;
     height: auto;
-    border: 1px groove;
     border-radius:2rem;
     width:100%;
     background-color: white;
@@ -190,7 +189,7 @@ div i
 }
 img
 {
-    max-width: 220px;
+    max-width: 100%;
     max-height: 90px;
     width: 100%;
     padding: 5px;
@@ -201,4 +200,57 @@ img
     display: flex;
     margin-left: 10px;
     margin-right: 10px;
-}    
+}  
+.hebergementetplus 
+{
+    display: flex;
+}
+aside
+{
+    margin-left: auto;
+    border-radius:2rem;
+    min-height: 500px;
+    width:30%;
+    background-color: #F2F2F2;
+    max-width: 500px;   
+} 
+.asidetitle, .hebergementtitle
+{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.lespluspopulaire 
+{
+    display: flex;
+    flex-direction: column; 
+    
+}
+.content
+{
+    display: flex;
+    flex-direction: column;
+}
+.lespopulaires
+{
+    display: flex;
+    /*flex-direction:column;
+    flex-flow: row wrap;*/
+    
+}
+.imagepopulaire
+{
+    width: 70%;
+    border-radius: 10% 0% 0% 10%;
+}
+.contenticon
+{
+    display: flex;
+    flex-direction: column;
+}
+#image
+{
+    border-radius:2rem 0 0 2rem;
+    max-width: 120px;
+    max-height: 120px;
+}
