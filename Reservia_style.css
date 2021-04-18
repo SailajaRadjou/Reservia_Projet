@@ -155,9 +155,9 @@ div i
     font-size: 20px;
     margin-left: 20px;
 }
-.hebergementtitle
+.hebergementtitle, .afficheplus
 {
-    margin-left: 35px;
+    margin:20px 30px;
     font-size: 20px;
     font-weight: bolder;
 }
@@ -165,13 +165,14 @@ div i
 {
     border: 1px groove;
     border-radius:2rem;
-    min-height: 600px;
+    min-height: 500px;
     width:70%;
     background-color: #F2F2F2;
+    max-width: 700px;
 }
-.cannebièreauberge, .hotelduport
+.leshebergements
 {
-    margin:12px;
+    margin:10px;
     height: auto;
     border: 1px groove;
     border-radius:2rem;
@@ -181,6 +182,7 @@ div i
 #staricon
 {
     font-size: 16px;
+    color: #0065FC ;
 }
 .alignstar
 {
@@ -197,4 +199,6 @@ img
 .hebergementcontent
 {
     display: flex;
-}
+    margin-left: 10px;
+    margin-right: 10px;
+}    
