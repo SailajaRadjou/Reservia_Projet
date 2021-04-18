@@ -2,7 +2,7 @@ header, section
 {
     margin: 10px 200px 50px;
 }
-img
+.logoreservia
 {
     width: 90px;
     height:50px;
@@ -154,4 +154,47 @@ div i
     
     font-size: 20px;
     margin-left: 20px;
+}
+.hebergementtitle
+{
+    margin-left: 35px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.hebergement
+{
+    border: 1px groove;
+    border-radius:2rem;
+    min-height: 600px;
+    width:70%;
+    background-color: #F2F2F2;
+}
+.cannebièreauberge, .hotelduport
+{
+    margin:12px;
+    height: auto;
+    border: 1px groove;
+    border-radius:2rem;
+    width:100%;
+    background-color: white;
+}
+#staricon
+{
+    font-size: 16px;
+}
+.alignstar
+{
+    padding-left: 15px;
+}
+img
+{
+    max-width: 220px;
+    max-height: 90px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 2rem 2rem 0 0;
+}
+.hebergementcontent
+{
+    display: flex;
 }
