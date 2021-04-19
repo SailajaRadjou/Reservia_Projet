@@ -177,6 +177,7 @@ div i
     border-radius:2rem;
     width:100%;
     background-color: white;
+    box-shadow: 2px 3px gray;
 }
 #staricon
 {
@@ -222,7 +223,7 @@ aside
     min-height: 500px;
     width:30%;
     background-color: #F2F2F2;
-    max-width: 500px;   
+    max-width: 500px; 
 } 
 .asidetitle, .hebergementtitle
 {
@@ -244,9 +245,9 @@ aside
 .lespopulaires
 {
     display: flex;
-    /*flex-direction:column;
-    flex-flow: row wrap;*/
     margin-bottom: 15px;
+    border-radius:2rem;
+    box-shadow: 2px 3px gray;
 }
 .imagepopulaire
 {
