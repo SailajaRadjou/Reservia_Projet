@@ -1,4 +1,4 @@
-header, .premiersection, .hebergementetplus, .activités 
+header, .premiersection, .hebergementetplus, .activités, footer 
 {
     margin: 10px 200px 50px;
     
@@ -156,9 +156,9 @@ div i
     font-size: 20px;
     margin-left: 20px;
 }
-.hebergementtitle, .afficheplus, .asidetitle
+.sectiontitle
 {
-    margin:20px 30px;
+    /*margin:20px 30px;*/
     font-size: 20px;
     font-weight: bolder;
 }
@@ -229,7 +229,7 @@ aside
 {
     display: flex;
     align-items: baseline;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .lespluspopulaire 
 {
@@ -329,4 +329,20 @@ aside
     height: 200px;
     margin-left: -20px;
     box-shadow: 2px 3px gainsboro;
+}
+.footersection
+{
+    display: flex;
+    
+    background-color: #F2F2F2;
+    width: 100%;
+}
+.footercolumn
+{
+    width: 50%;
+}
+.footertitre
+{
+    font-size: large;
+    font-weight: bolder;
 }
