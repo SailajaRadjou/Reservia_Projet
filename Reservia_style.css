@@ -201,6 +201,16 @@ img
     margin-left: 10px;
     margin-right: 10px;
 }  
+.figcap
+{
+    flex-flow: column;
+    font-size: 18px;
+    color:black;
+    align-items: flex-start;
+    max-width: 100%;
+    border-radius: 2rem 2rem 0 0;
+    padding-right: 10px;
+}    
 .hebergementetplus 
 {
     display: flex;
@@ -236,14 +246,14 @@ aside
     display: flex;
     /*flex-direction:column;
     flex-flow: row wrap;*/
-    
+    margin-bottom: 15px;
 }
 .imagepopulaire
 {
     width: 70%;
     border-radius: 10% 0% 0% 10%;
 }
-.contenticon
+.contenticon, .imagecontenticon
 {
     display: flex;
     flex-direction: column;
