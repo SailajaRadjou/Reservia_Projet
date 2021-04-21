@@ -4,7 +4,7 @@ body
     font-family: 'Raleway', sans-serif;
     text-align: justify;  
 }
-.logoreservia
+.logo_reservia
 {
     width: 90px;
     height:50px;
@@ -29,7 +29,7 @@ a
 {
     text-decoration: none;
 }
-#logoheader, a, .inscrire
+#logo_header, a, .inscrire
 {
     display: flex;
     align-items:center;
@@ -37,17 +37,17 @@ a
     font-weight: bold;
     color: #0065fc;
 }
-#alignheader
+#align_header
 {
     margin-left: auto;
     
 }
-.heberdeco
+.heber_deco
 {
     border-top: 3px solid #0065FC;
       
 }
-.actideco:hover
+.acti_deco:hover
 {
     border-top: 3px solid #0065FC;
     
@@ -96,7 +96,7 @@ div i
     font-size: 20px;
     color: #0065FC;
 }
-#survol:hover
+.sur_vol:hover
 {
     cursor: pointer;
     border-radius: 2rem 2rem 2rem 2rem;
@@ -104,20 +104,20 @@ div i
     font-size: 16px;
     min-width: 155px;   
 }
-.filtrecontent
+.filtre_content
 {
     display: flex;
     margin-top: 3%;
     /*justify-content: space-around;*/
 }
-.alignfiltre
+.align_filtre
 {
     display: flex;
     align-items: center;
     font-size: 20px;
     font-weight: bolder;
 }
-.economiquefiltre, .famillialfiltre, .romantiquefiltre, .animalfiltre
+#economique_filtre, #famillial_filtre, #romantique_filtre, #animal_filtre
 {
     display: flex;
     align-items: center;
@@ -135,25 +135,25 @@ div i
     margin-left: 20px;
     /*justify-content: space-evenly;*/
 }
-.infosection
+.info_section
 {
     display:flex;
     margin-top: 3%;
 
 }
-#infoicon
+#info_icon
 {
     background-color:white;
     border: 1px solid gray;
     
 }
-.infotexte
+.info_texte
 {
     
     font-size: 20px;
     margin-left: 20px;
 }
-.sectiontitle
+.section_title
 {
     /*margin:20px 30px;*/
     font-size: 20px;
@@ -167,7 +167,7 @@ div i
     background-color: #F2F2F2;
     max-width: 1000px;
 }
-.leshebergements
+.les_hebergements
 {
     margin:15px;
     height: auto;
@@ -176,12 +176,12 @@ div i
     background-color: white;
     box-shadow: 2px 3px gainsboro;
 }
-#staricon
+.star_icon
 {
     font-size: 16px;
     color: #0065FC ;
 }
-.alignstar
+.align_star
 {
     padding-left: 15px;
 }
@@ -193,13 +193,13 @@ img
     padding: 5px;
     border-radius: 2rem 2rem 0 0;
 }
-.hebergementcontent
+.hebergement_content
 {
     display: flex;
     margin-left: 10px;
     margin-right: 10px;
 }  
-.figcap
+.fig_cap
 {
     flex-flow: column;
     font-size: 18px;
@@ -209,7 +209,7 @@ img
     border-radius: 2rem 2rem 0 0;
     padding-right: 10px;
 }    
-.hebergementetplus
+.hebergement_et_plus
 {
     display: flex;
 }
@@ -222,13 +222,13 @@ aside
     background-color: #F2F2F2;
     max-width: 500px; 
 } 
-.asidetitle, .hebergementtitle
+.aside_title, .hebergement_title
 {
     display: flex;
     align-items: baseline;
     justify-content: space-around;
 }
-.lespluspopulaire 
+.les_plus_populaire 
 {
     display: flex;
     flex-direction: column; 
@@ -239,7 +239,7 @@ aside
     display: flex;
     flex-direction: column;
 }
-.lespopulaires
+.les_populaires
 {
     display: flex;
     margin-bottom: 15px;
@@ -248,23 +248,23 @@ aside
     margin: 25px;
     background-color: white;
 }
-.imagepopulaire
+.image_populaire
 {
     width: 70%;
     border-radius: 10% 0% 0% 10%;
 }
-.contenticon, .imagecontenticon
+.content_icon, .image_content_icon
 {
     display: flex;
     flex-direction: column;
 }
-#image
+.image
 {
     border-radius:2rem 0 0 2rem;
     max-width: 120px;
     max-height: 120px;
 }
-.activitécontent
+.activité_content
 {
     display: flex;
     align-items:center;
@@ -272,7 +272,7 @@ aside
     height: 500px;
     
 }
-.activité1, .activité4
+.activité_1, .activité_4
 {
     max-width: 350px;
     max-height: 600px;
@@ -283,27 +283,27 @@ aside
     margin-left: -20px;
     box-shadow: 2px 3px gainsboro;
 }
-.imageacti1
+.imageacti_1
 {
     max-width: 350px;
     max-height: 350px;
     height: 450px;
     padding: 0;
 }
-.imageacti2
+.imageacti_2
 {
     max-width: 350px;
     max-height:250px;
     height: 150px;
     padding: 0;
 }
-.colonne1
+.colonne_1
 {
   display: flex;
   flex-direction: column;
   max-width: 350px;
 }
-.activité2, .activité5, .activité6
+.activité_2, .activité_5, .activité_6
 {
     margin-top: 20px;
     max-width: 350px;
@@ -315,7 +315,7 @@ aside
     margin-left: -20px;
     box-shadow: 2px 3px gainsboro;
 }
-.activité3
+.activité_3
 {
     margin-top: 20px;
     max-width: 350px;
@@ -327,48 +327,40 @@ aside
     margin-left: -20px;
     box-shadow: 2px 3px gainsboro;
 }
-.footersection
+.footer_section
 {
     display: flex;
     
     background-color: #F2F2F2;
     width: 100%;
 }
-.footercolumn
+.footer_column
 {
     width: 50%;
-}
-.footertitre
-{
-    font-size: large;
-    font-weight: bolder;
 }
 
 @media screen and (max-width:1024px)
 {
     body
     {
-        margin: 20px 40px 50px;
+        margin: 0;
         font-family: 'Raleway', sans-serif;
         text-align: justify;  
-        font-size: 40px;
+        font-size: 20px;
     }
     
-    .align
+   
+    .logo_reservia
     {
-        
-    }
-    .logoreservia
-    {
-        width: 223px;
+        width: 100px;
         height: 95px;
     }
-    #logoheader
+    #logo_header
     {
         flex-flow: row wrap;
         justify-content: space-between;
     }
-    #alignheader
+    #align_header
     {
         order:3;
         align-self:flex-end; 
@@ -376,23 +368,24 @@ aside
     }
     .inscrire
     {
-        margin: 50px;
+        margin: 10px;
         align-self: flex-end;
-        font-size: 40px;
+        font-size: 25px;
     }
-    .heberdeco, .actideco
+    .heber_deco, .acti_deco
     {
         text-align: center;
-        font-size: 50px;
+        font-size: 15px;
         border-top: none;
         border-bottom: 3px solid #f2f2f2;
+        color:black;
     }
-    .heberdeco:hover
+    .heber_deco:hover
     {
         border-bottom: 3px solid #0065FC;
         
     }
-    .actideco:hover
+    .acti_deco:hover
     {
         border-bottom-color: 3px solid #0065FC;
         
