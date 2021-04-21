@@ -343,17 +343,15 @@ aside
 {
     body
     {
-        margin: 0;
+        margin: 10px;
         font-family: 'Raleway', sans-serif;
         text-align: justify;  
         font-size: 20px;
     }
-    
-   
     .logo_reservia
     {
-        width: 100px;
-        height: 95px;
+        width: 90px;
+        height: 80px;
     }
     #logo_header
     {
@@ -372,27 +370,72 @@ aside
         align-self: flex-end;
         font-size: 25px;
     }
-    .heber_deco, .acti_deco
+    li .heber_deco, .acti_deco
     {
         text-align: center;
         font-size: 15px;
         border-top: none;
-        border-bottom: 3px solid #f2f2f2;
+        border-bottom: 6px solid #f2f2f2;
         color:black;
     }
     .heber_deco:hover
     {
-        border-bottom: 3px solid #0065FC;
+        border-bottom: 6px solid #0065FC;
         
     }
     .acti_deco:hover
     {
-        border-bottom-color: 3px solid #0065FC;
+        border-bottom: 3px solid #0065FC;
         
     }
+    
     h1
     {
         font-size: 30px;
         font-weight: bolder;
+    }
+    p
+    {
+        font-size: 15px;
+        font-weight: lighter;
+    }
+    
+    .search
+    {
+        
+        font-weight:lighter;
+        font-size: 15px;
+        border-color: lightgray transparent;
+        text-align: justify;
+    }
+    .filtres, .filtre_content
+    {
+        display: flex;
+        flex-flow: row wrap;
+        margin:0px;
+       
+    }
+    .align_filtre
+    {
+        font-size: 25px;
+        font-weight: bolder;
+        margin:15px;
+    }
+    aside
+    {
+        margin: 0;
+        border-radius:2rem;
+        width:100%;
+        background-color: #F2F2F2;
+
+    } 
+    .hebergement
+    {
+       order: 1; 
+    }
+    .hebergement_et_plus
+    {
+        display: flex;
+        flex-flow: column wrap;
     }
 } 
