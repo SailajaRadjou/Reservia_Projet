@@ -184,7 +184,7 @@ div i
 .align_star
 {
     display: flex;
-    padding: 8px;
+    
     color: #0065FC;
 }
 img
@@ -425,6 +425,7 @@ aside
         flex-flow: row wrap;
         margin:0px;
        margin-bottom: 15px;
+       font-size: 16px;
     }
     .align_filtre, .affiche_plus, .section_title
     {
@@ -440,7 +441,7 @@ aside
     }
     aside
     {
-        margin: 0;
+        border-radius:0;
         width:100%;
         background-color: #F2F2F2;
 
@@ -464,9 +465,11 @@ aside
     {
         display: flex;
         box-shadow: 2px 3px gainsboro;
-        margin: 10px;
-        margin-bottom: 30px;
+        margin: 10px 10px 10px 0px;
+        
         background-color:white;
+        height: 190px;
+        width: 350px;
     }
     .heber_align
     {
@@ -483,11 +486,10 @@ aside
     }
     .les_hebergements
     {
-        margin:15px;
-        height: auto;
-        width:100%;
-        background-color: white;
-        box-shadow: 2px 3px gainsboro;
+        margin: 10px;
+        height: 225px;
+        width: 360px;
+        
     }
     .hebergement_content
     {
@@ -498,6 +500,13 @@ aside
         max-width: 100%;
         width: 100%;
     }  
+    img {
+        max-width: 100%;
+        max-height: 120px;
+        width: 100%;
+        padding: 5px;
+        border-radius: 2rem 2rem 0 0;
+    }
     .sur_vol:hover
     {
         cursor : pointer;
@@ -508,8 +517,10 @@ aside
     }
      .align_star
     {
-        margin: 10px;
+        
         text-align: justify;
+        font-size: 17px;
+        margin-left: 18px;
     }
     figcaption
     {
