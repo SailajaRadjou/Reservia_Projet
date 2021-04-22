@@ -444,7 +444,13 @@ aside
         width:100%;
         background-color: #F2F2F2;
 
+    }
+    .image
+    {
+        max-width: 150px;
+        max-height: 180px;
     } 
+    
     .hebergement
     {
        order: 1; 
