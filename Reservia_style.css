@@ -372,7 +372,7 @@ aside
         align-self: flex-end;
         font-size: 25px;
     }
-    li .heber_deco, .acti_deco
+    .heber_deco, .acti_deco
     {
         
         font-size: 20px;
@@ -382,14 +382,16 @@ aside
         margin-left: -45px;
     
     }
-    .heber :hover
+    #heber:hover
     {
+        border-top: none;
         border-bottom: 6px solid #0065FC;
         
     }
-    .activ :hover
+    #activ:hover
     {
-        border-bottom: 3px solid #0065FC;
+        border-top: none;
+        border-bottom: 6px solid #0065FC;
         
     }
     
