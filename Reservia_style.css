@@ -339,7 +339,7 @@ aside
 {
     width: 50%;
 }
-@media screen and (max-width:1400px)
+@media screen and (max-width:1500px)
 {
     body
     {
@@ -412,7 +412,76 @@ aside
     }
 
 }
-@media screen and (max-width:600px)
+@media screen and (max-width:1024px)
+{
+    body
+    {
+        margin: 10px 30px 50px;
+        font-family: 'Raleway', sans-serif;
+        text-align: justify;  
+    }
+    .logo_reservia
+    {
+        width: 150px;
+        height:60px;
+    }
+    .activité_content
+    {
+        margin-left: 35px;
+        justify-content:center;
+    
+    }
+    
+    .activité_1, .activité_4
+    {
+        max-width: 220px;
+        max-height: 400px;
+        
+        width: 220px;
+        height: 400px;
+        margin-left: -10px;
+       
+    }
+    .image_activ_1
+    {
+        max-width: 210px;
+        max-height: 400px;
+        height: 350px;
+        padding: 5px;
+    }
+    .image_activ_2
+    {
+        max-width: 210px;
+        max-height:200px;
+        height: 130px;
+        padding: 5px;
+    }
+    
+    .activité_2, .activité_5, .activité_6
+    {
+        margin-top: 10px;
+        max-width: 220px;
+        max-height: 300px;
+        
+        width: 220px;
+        height: 180px;
+        margin-left: -10px;
+        
+    }
+    .activité_3
+    {
+        margin-top: 10px;
+        max-width: 220px;
+        max-height: 300px;
+        
+        width: 220px;
+        height: 180px;
+        margin-left: -10px;
+        
+    }
+
+}
+@media all and (max-width:600px)
 {
     body
     {
@@ -436,7 +505,7 @@ aside
     {
         order:3;
         align-self:flex-end; 
-      
+        width:100%;
     }
     .inscrire
     {
@@ -539,7 +608,7 @@ aside
     {
         display: flex;
         box-shadow: 2px 3px gainsboro;
-        margin: 10px 10px 10px 0px;
+        margin: 20px 0px 0px 20px;
         
         background-color:white;
         height: 190px;
@@ -569,7 +638,7 @@ aside
     {
         display: flex;
         flex-flow: column wrap;
-        margin-left: -15px;
+        margin-left: 0px;
         margin-right: 0px;
         max-width: 100%;
         width: 100%;
@@ -613,11 +682,8 @@ aside
      {
         max-width: 450px;
         max-height: 200px;
-        border: 1px solid gainsboro;
-        border-radius: 2rem;
-        margin-left: -10px;
-        margin-right: 10px;
-        box-shadow: 2px 3px gainsboro;
+        width: 350px;
+        margin-left: 0px;
     }
     .footer_section
     {
@@ -625,12 +691,12 @@ aside
         display: flex;
         flex-direction: column;
         background-color: #F2F2F2;
-        width: 100%;
+       
     }
     .footer_column
     {
-        width: 100%;
-        margin-left: 20px;
+        width: 80%;
+        margin: 0px;
         text-align: justify;
     }
     
