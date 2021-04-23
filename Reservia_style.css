@@ -29,13 +29,26 @@ a
 {
     text-decoration: none;
 }
-#logo_header, a, .inscrire
+#logo_header, .inscrire, .heber_deco, .acti_deco
 {
     display: flex;
     align-items:center;
     font-size: 20px;
     font-weight: bold;
     color: #0065fc;
+}
+.hotel_name
+{
+    font-size: 18px;
+    font-weight: bolder;
+    color: #0065fc; 
+}
+.heber_align
+{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #0065fc;
+    margin-top: 0;
 }
 #align_header
 {
@@ -147,16 +160,24 @@ div i
     font-size: 20px;
     margin-left: 20px;
 }
-.aside_title, .section_title, .heber_title
+.aside_title, .section_title, .heber_title, .affiche_plus
 {
     font-size: 25px;
     font-weight: bolder;
     margin-left: 15px;
+    color: black;
 }
 .footer_title
 {
     font-size: 20px;
     font-weight: bolder; 
+}
+.activity_name
+{
+    font-size: 16px;
+    color: black;
+    font-weight: bolder;
+    margin-left: 10px;
 }
 .hebergement
 {
@@ -183,13 +204,15 @@ div i
 {
     display: flex;
     color: #0065FC;
+    font-size: 15px;
+    margin-left: 20px;
 }
 img
 {
     max-width: 100%;
     max-height: 90px;
     width: 100%;
-    padding: 5px;
+    padding: 0px;
     border-radius: 2rem 2rem 0 0;
 }
 .hebergement_content
@@ -338,6 +361,11 @@ aside
 {
     width: 50%;
 }
+.footer_font
+{
+    font-size: 15px;
+    font-weight: lighter;
+}
 
 @media all and (min-width : 300px) and (max-width : 600px)
 {
@@ -450,14 +478,25 @@ aside
     }
     .hotel_name
     {
-        font-size: 19px;
+        font-size: 16px;
     }
     .heber_align
     {
-        margin-top: -1px;
-        margin-left: 10px;
+        margin-top: -2px;
+        margin-left: 5px;
         font-size: 16px;
         text-align: justify;
+    }
+    #content_align
+    {
+        margin-top: -8px;
+        margin-left: 20px;
+    }
+    .heber_title, .section_title, .affiche_plus
+    {
+        font-size: 21px;
+        font-weight: bolder;
+        margin-top: 20px;
     }
     .hebergement
     {
@@ -486,8 +525,8 @@ aside
     img
     {
         max-width: 100%;
-        max-height: 100px;
-        width: 100%;
+        max-height: 90px;
+        width: 97%;
         padding: 10px;
         border-radius: 2rem 2rem 0 0;
     }
@@ -501,7 +540,7 @@ aside
     }
      .align_star
     {
-        margin-top: -5px;
+        margin-top: -6px;
         text-align: justify;
         font-size: 15px;
         margin-left: 18px;
@@ -521,10 +560,10 @@ aside
     }
     .image_activ_2, .image_activ_1
     {
-        max-width: 450px;
+        max-width: 100%;
         max-height:250px;
         height: 150px;
-        padding: 0;
+        
     }
     .activité_1, .activité_2, .activité_3, .activité_4, .activité_5, .activité_6
     {
@@ -570,6 +609,10 @@ aside
     {
         width: 150px;
         height:50px;
+    }
+    img
+    {
+        padding: 0px;
     }
     .activité_content
     {
@@ -660,7 +703,10 @@ aside
         
        margin:10px 20px 15px 10px;
     }
-    
+    img
+    {
+        padding: 0px;
+    }
     .sur_vol, aside, .hebergement
     {
         margin-top: 25px;
