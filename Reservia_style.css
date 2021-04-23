@@ -422,64 +422,97 @@ aside
     }
     .logo_reservia
     {
-        width: 150px;
+        width: 100px;
         height:60px;
     }
+    form
+    {
+        margin-bottom: 20px;
+    }
+    .filtres, .filtre_content
+    {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        
+       margin:10px 20px 15px 10px;
+    }
+    
+    .sur_vol, aside, .hebergement
+    {
+        margin-top: 25px;
+    }
+    .les_populaires
+    {
+        
+        height: 190px;
+        width: 90%;
+    }
+    aside
+    {
+        border-radius:2rem;
+        max-width:100%;
+        background-color: #F2F2F2;
+        width: 100%;
+    }
+    .image
+    {
+        max-width: 250px;
+        max-height: 180px;
+    } 
+    
+    .hebergement
+    {
+       order: 1; 
+       width: 100%; 
+       height: 600px;
+    }
+    .hebergement_et_plus
+    {
+        display: flex;
+        flex-flow: column wrap;
+        
+    }
+    
     .activité_content
     {
+        flex-flow: row wrap;
         margin-left: 35px;
         justify-content:center;
     
     }
+    #column
+    {
+        order:-1;
+    }
     
-    .activité_1, .activité_4
+    .image_activ_2, .image_activ_1
     {
-        max-width: 220px;
-        max-height: 400px;
-        
-        width: 220px;
-        height: 400px;
-        margin-left: -10px;
-       
-    }
-    .image_activ_1
-    {
-        max-width: 210px;
-        max-height: 400px;
-        height: 350px;
-        padding: 5px;
-    }
-    .image_activ_2
-    {
-        max-width: 210px;
+        max-width: 250px;
         max-height:200px;
         height: 130px;
         padding: 5px;
     }
     
-    .activité_2, .activité_5, .activité_6
+    .activité_1, .activité_4, .activité_3, .activité_2, .activité_5, .activité_6
     {
         margin-top: 10px;
-        max-width: 220px;
+        max-width: 260px;
         max-height: 300px;
         
-        width: 220px;
+        width: 260px;
         height: 180px;
         margin-left: -10px;
         
     }
-    .activité_3
+    .footer_column
     {
-        margin-top: 10px;
-        max-width: 220px;
-        max-height: 300px;
-        
-        width: 220px;
-        height: 180px;
-        margin-left: -10px;
-        
+        width: 80%;
+        margin: 25px;
+        text-align: justify;
     }
-
+    
+    
 }
 @media all and (max-width:600px)
 {
@@ -547,14 +580,7 @@ aside
         font-weight:normal;
     }
     
-    .search
-    {
-        
-        font-weight:lighter;
-        font-size: 15px;
-        border-color: lightgray transparent;
-        text-align: justify;
-    }
+   
     .filtres, .filtre_content
     {
         display: flex;
@@ -562,22 +588,7 @@ aside
         margin:0px;
        margin-bottom: 15px;
     }
-    .activité_content
-    {
-        display: flex;
-        flex-flow: row wrap;
-        margin:0px;
-       margin-bottom: 15px;
-       font-size: 16px;
-    }
-    .align_filtre, .affiche_plus, .section_title
-    {
-        font-size: 22px;
-        font-weight: bolder;
-        margin:15px;
-        color: black;
-        text-align: justify;
-    }
+    
     .sur_vol
     {
         margin-top: 25px;
@@ -606,11 +617,7 @@ aside
     }
     .les_populaires
     {
-        display: flex;
-        box-shadow: 2px 3px gainsboro;
-        margin: 20px 0px 0px 20px;
         
-        background-color:white;
         height: 190px;
         width: 350px;
     }
@@ -670,7 +677,11 @@ aside
         margin-left: 20px;
     }
     
-    
+    .activité_content
+    {
+        margin: 15px;
+        flex-flow: column wrap;
+    }
     .image_activ_2, .image_activ_1
     {
         max-width: 450px;
