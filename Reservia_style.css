@@ -366,7 +366,7 @@ aside
     font-size: 15px;
     font-weight: lighter;
 }
-
+/* Responsive pour Mobile*/
 @media all and (min-width : 300px) and (max-width : 600px)
 {
     body
@@ -596,7 +596,7 @@ aside
     }
 }
 
-
+/* Responsive pour Ordinateur Portable(LAPTOP)*/
 @media screen and (min-width : 1024px) and (max-width : 1600px)
 {
     body
@@ -674,6 +674,7 @@ aside
     }
 
 }
+/* Responsive pour Tablettes*/
 @media screen and (min-width : 600px) and (max-width : 1024px)
 {
     body
