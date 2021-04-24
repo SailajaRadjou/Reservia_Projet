@@ -1,18 +1,15 @@
-header, .premiersection, .hebergementetplus, .activités, footer 
-{
-    margin: 10px 200px 50px;
-    
-}
-.logoreservia
-{
-    width: 90px;
-    height:50px;
-}
 body
 {
+    margin: 10px 200px 50px;
     font-family: 'Raleway', sans-serif;
     text-align: justify;  
 }
+.logo_reservia
+{
+    width: 110px;
+    height:60px;
+}
+
 ul
 {
     display: flex;
@@ -32,7 +29,7 @@ a
 {
     text-decoration: none;
 }
-#logoheader, a, .inscrire
+#logo_header, .inscrire, .heber_deco, .acti_deco
 {
     display: flex;
     align-items:center;
@@ -40,17 +37,30 @@ a
     font-weight: bold;
     color: #0065fc;
 }
-#alignheader
+.hotel_name
+{
+    font-size: 18px;
+    font-weight: bolder;
+    color: #0065fc; 
+}
+.heber_align
+{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #0065fc;
+    margin-top: 0;
+}
+#align_header
 {
     margin-left: auto;
     
 }
-.heberdeco
+.heber_deco
 {
     border-top: 3px solid #0065FC;
       
 }
-.actideco:hover
+.acti_deco:hover
 {
     border-top: 3px solid #0065FC;
     
@@ -66,7 +76,7 @@ button
     min-width: 100px;
     min-height: 45px;
     font-weight:lighter;
-    font-size: 25px;
+    font-size: 20px;
     background-color:#0065FC;
     color: #F2F2F2;
 }
@@ -81,9 +91,7 @@ button
 }
 .recherche
 {
-    display: inline-flex;
-    
-    
+    display: flex;
 }
 i
 {
@@ -99,7 +107,7 @@ div i
     font-size: 20px;
     color: #0065FC;
 }
-#survol:hover
+.sur_vol:hover
 {
     cursor: pointer;
     border-radius: 2rem 2rem 2rem 2rem;
@@ -107,20 +115,19 @@ div i
     font-size: 16px;
     min-width: 155px;   
 }
-.filtrecontent
+.filtre_content
 {
     display: flex;
     margin-top: 3%;
-    /*justify-content: space-around;*/
 }
-.alignfiltre
+.align_filtre
 {
     display: flex;
     align-items: center;
     font-size: 20px;
     font-weight: bolder;
 }
-.economiquefiltre, .famillialfiltre, .romantiquefiltre, .animalfiltre
+#economique_filtre, #famillial_filtre, #romantique_filtre, #animal_filtre
 {
     display: flex;
     align-items: center;
@@ -129,38 +136,48 @@ div i
     border-radius: 2rem 2rem 2rem 2rem;
     font-size: 15px;
     padding-right: 5px;
-    min-width: 150px;
+    min-width: 200px;
     margin-left: 25px;
 }
 .filtres
 {
     display: flex;
     margin-left: 20px;
-    /*justify-content: space-evenly;*/
 }
-.infosection
+.info_section
 {
     display:flex;
     margin-top: 3%;
-
 }
-#infoicon
+#info_icon
 {
     background-color:white;
     border: 1px solid gray;
-    
+    font-size: 15px;
 }
-.infotexte
+.info_texte
 {
-    
     font-size: 20px;
     margin-left: 20px;
 }
-.sectiontitle
+.aside_title, .section_title, .heber_title, .affiche_plus
 {
-    /*margin:20px 30px;*/
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bolder;
+    margin-left: 15px;
+    color: black;
+}
+.footer_title
+{
+    font-size: 20px;
+    font-weight: bolder; 
+}
+.activity_name
+{
+    font-size: 16px;
+    color: black;
+    font-weight: bolder;
+    margin-left: 10px;
 }
 .hebergement
 {
@@ -170,7 +187,7 @@ div i
     background-color: #F2F2F2;
     max-width: 1000px;
 }
-.leshebergements
+.les_hebergements
 {
     margin:15px;
     height: auto;
@@ -179,30 +196,36 @@ div i
     background-color: white;
     box-shadow: 2px 3px gainsboro;
 }
-#staricon
+#disable
 {
-    font-size: 16px;
-    color: #0065FC ;
+    color: grey;
 }
-.alignstar
+.align_star
 {
-    padding-left: 15px;
+    display: flex;
+    color: #0065FC;
+    font-size: 15px;
+    margin-left: 20px;
 }
 img
 {
     max-width: 100%;
     max-height: 90px;
     width: 100%;
-    padding: 5px;
+    padding: 0px;
     border-radius: 2rem 2rem 0 0;
 }
-.hebergementcontent
+.hebergement_content
 {
     display: flex;
     margin-left: 10px;
     margin-right: 10px;
-}  
-.figcap
+} 
+.affiche_plus, .section_title
+{
+    margin:20px;
+} 
+.fig_cap
 {
     flex-flow: column;
     font-size: 18px;
@@ -212,7 +235,7 @@ img
     border-radius: 2rem 2rem 0 0;
     padding-right: 10px;
 }    
-.hebergementetplus
+.hebergement_et_plus
 {
     display: flex;
 }
@@ -225,24 +248,23 @@ aside
     background-color: #F2F2F2;
     max-width: 500px; 
 } 
-.asidetitle, .hebergementtitle
+.aside_title, .hebergement_title
 {
     display: flex;
     align-items: baseline;
     justify-content: space-around;
 }
-.lespluspopulaire 
+.les_plus_populaire 
 {
     display: flex;
     flex-direction: column; 
-    
 }
 .content
 {
     display: flex;
     flex-direction: column;
 }
-.lespopulaires
+.les_populaires
 {
     display: flex;
     margin-bottom: 15px;
@@ -251,98 +273,533 @@ aside
     margin: 25px;
     background-color: white;
 }
-.imagepopulaire
+.image_populaire
 {
     width: 70%;
     border-radius: 10% 0% 0% 10%;
 }
-.contenticon, .imagecontenticon
+.content_icon, .image_content_icon
 {
     display: flex;
     flex-direction: column;
 }
-#image
+.image
 {
     border-radius:2rem 0 0 2rem;
     max-width: 120px;
     max-height: 120px;
 }
-.activitécontent
+.activité_content
 {
     display: flex;
     align-items:center;
     justify-content: space-around;
-    height: 500px;
-    
 }
-.activité1, .activité4
+.activité_1, .activité_4
 {
-    max-width: 350px;
+    max-width: 360px;
     max-height: 600px;
     border: 1px solid gainsboro;
     border-radius: 2rem;
-    width: 350px;
+    width: 370px;
     height: 440px;
     margin-left: -20px;
     box-shadow: 2px 3px gainsboro;
 }
-.imageacti1
+.image_activ_1
 {
     max-width: 350px;
     max-height: 350px;
     height: 450px;
-    padding: 0;
+    padding: 5px;
 }
-.imageacti2
+.image_activ_2
 {
     max-width: 350px;
     max-height:250px;
     height: 150px;
-    padding: 0;
+    padding: 5px;
 }
-.colonne1
+.colonne_1
 {
   display: flex;
   flex-direction: column;
   max-width: 350px;
 }
-.activité2, .activité5, .activité6
+.activité_2, .activité_5, .activité_6
 {
     margin-top: 20px;
-    max-width: 350px;
+    max-width: 360px;
     max-height: 350px;
     border: 1px solid #ccc;
     border-radius: 2rem;
-    width: 350px;
+    width: 370px;
     height: 200px;
     margin-left: -20px;
     box-shadow: 2px 3px gainsboro;
 }
-.activité3
+.activité_3
 {
     margin-top: 20px;
     max-width: 350px;
     max-height: 200px;
     border: 1px solid #ccc;
     border-radius: 2rem;
-    width: 350px;
+    width: 370px;
     height: 200px;
     margin-left: -20px;
     box-shadow: 2px 3px gainsboro;
 }
-.footersection
+.footer_section
 {
     display: flex;
     
     background-color: #F2F2F2;
     width: 100%;
 }
-.footercolumn
+.footer_column
 {
     width: 50%;
 }
-.footertitre
+.footer_font
 {
-    font-size: large;
-    font-weight: bolder;
+    font-size: 15px;
+    font-weight: lighter;
 }
+
+@media all and (min-width : 300px) and (max-width : 600px)
+{
+    body
+    {
+        margin: 10px;
+        font-family: 'Raleway', sans-serif;
+        text-align: justify;  
+        font-size: 20px;
+    }
+    .logo_reservia
+    {
+        width: 90px;
+        height: 80px;
+        margin-left: 25px;
+    }
+    #logo_header
+    {
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+    #align_header
+    {
+        order:3;
+        align-self:flex-end; 
+        width:100%;
+    }
+    .inscrire
+    {
+        margin: 15px;
+        align-self: flex-end;
+        font-size: 25px;
+    }
+    .heber_deco, .acti_deco
+    {
+        
+        font-size: 20px;
+        border-top: none;
+        border-bottom: 6px solid #f2f2f2;
+        color:black;
+        margin-left: -45px;
+    }
+    #heber:hover
+    {
+        border-top: none;
+        border-bottom: 6px solid #0065FC;
+        
+    }
+    #activ:hover
+    {
+        border-top: none;
+        border-bottom: 6px solid #0065FC;
+    }
+    h1
+    {
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    p
+    {
+        font-size: 18px;
+        font-weight:normal;
+    }
+    form
+    {
+        width:100%
+    }
+    .filtres, .filtre_content
+    {
+        display: flex;
+        flex-flow: row wrap;
+        margin:0px;
+       margin-bottom: 15px;
+    }
+    .sur_vol
+    {
+        margin-top: 25px;
+    }
+    aside
+    {
+        border-radius:0;
+        width:100%;
+        background-color: #F2F2F2;
+    }
+    .image
+    {
+        max-width: 150px;
+        max-height: 180px;
+    } 
+    .hebergement
+    {
+       order: 1; 
+    }
+    .hebergement_et_plus
+    {
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .les_populaires
+    {
+        margin: 10px;
+        font-size: 12px;;
+        height: 160px;
+        width: 330px;
+    }
+    .heber_title
+    {
+        font-size: 22px;
+        margin: 20px;
+    }
+    .hotel_name
+    {
+        font-size: 16px;
+    }
+    .heber_align
+    {
+        margin-top: -2px;
+        margin-left: 5px;
+        font-size: 16px;
+        text-align: justify;
+    }
+    #content_align
+    {
+        margin-top: -8px;
+        margin-left: 20px;
+    }
+    .heber_title, .section_title, .affiche_plus
+    {
+        font-size: 21px;
+        font-weight: bolder;
+        margin-top: 20px;
+    }
+    .hebergement
+    {
+        margin: 0;
+        border-radius:2rem;
+        min-height: 500px;
+        width:100%;
+        background-color:white;
+        max-width: 100%;
+    }
+    .les_hebergements
+    {
+        margin-bottom: 0px;
+        height: 195px;
+        width: 90%;
+    }
+    .hebergement_content
+    {
+        display: flex;
+        flex-flow: column wrap;
+        margin-left: 0px;
+        margin-right: 10px;
+        max-width: 100%;
+        width: 100%;
+    }  
+    img
+    {
+        max-width: 100%;
+        max-height: 90px;
+        width: 97%;
+        padding: 10px;
+        border-radius: 2rem 2rem 0 0;
+    }
+    .sur_vol:hover
+    {
+        cursor : pointer;
+        border-radius: 2rem 2rem 2rem 2rem;
+        background-color: #DEEBFF;
+        font-size: 16px;
+        min-width: 155px;   
+    }
+     .align_star
+    {
+        margin-top: -6px;
+        text-align: justify;
+        font-size: 15px;
+        margin-left: 18px;
+    }
+    figcaption
+    {
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    .activité_content
+    {
+        display: flex;
+        flex-flow: row wrap;
+        margin:0px;
+       margin-bottom: 15px;
+       font-size: 16px;
+    }
+    .image_activ_2, .image_activ_1
+    {
+        max-width: 100%;
+        max-height:250px;
+        height: 150px;
+        
+    }
+    .activité_1, .activité_2, .activité_3, .activité_4, .activité_5, .activité_6
+    {
+        max-width: 450px;
+        max-height: 200px;
+        border: 1px solid gainsboro;
+        border-radius: 2rem;
+        margin-left: 10px;
+        margin-right: 10px;
+        box-shadow: 2px 3px gainsboro;
+        width: 320px;
+    }
+    .footer_section
+    {
+        
+        display: flex;
+        flex-direction: column;
+        background-color: #F2F2F2;
+    }
+    .footer_column
+    {
+        width: 80%;
+        margin: 0px;
+        text-align: justify;
+    }
+    .footer_font
+    {
+        font-size: 15px;
+        font-weight: lighter;
+    }
+}
+
+
+@media screen and (min-width : 1024px) and (max-width : 1500px)
+{
+    body
+    {
+        margin: 10px 30px 50px;
+        font-family: 'Raleway', sans-serif;
+        text-align: justify;  
+    }
+    .logo_reservia
+    {
+        width: 150px;
+        height:50px;
+    }
+    img
+    {
+        padding: 0px;
+    }
+    .activité_content
+    {
+        
+        justify-content:center;
+    
+    }
+    
+    .activité_1, .activité_4
+    {
+        max-width: 260px;
+        max-height: 400px;
+        
+        width: 260px;
+        height: 400px;
+        margin-left: -10px;
+       
+    }
+    .image_activ_1
+    {
+        max-width: 250px;
+        max-height: 400px;
+        height: 350px;
+        padding: 5px;
+    }
+    .image_activ_2
+    {
+        max-width: 250px;
+        max-height:200px;
+        height: 130px;
+        padding: 5px;
+    }
+    .colonne_1
+    {
+    
+    max-width: 350px;
+    }
+    .activité_2, .activité_5, .activité_6
+    {
+        margin-top: 10px;
+        max-width: 260px;
+        max-height: 300px;
+        
+        width: 260px;
+        height: 180px;
+        margin-left: -10px;
+        
+    }
+    .activité_3
+    {
+        margin-top: 10px;
+        max-width: 260px;
+        max-height: 300px;
+        
+        width: 260px;
+        height: 180px;
+        margin-left: -10px;
+        
+    }
+
+}
+@media screen and (min-width : 600px) and (max-width : 1024px)
+{
+    body
+    {
+        margin: 10px 30px 50px;
+        font-family: 'Raleway', sans-serif;
+        text-align: justify;  
+    }
+    .logo_reservia
+    {
+        width: 100px;
+        height:60px;
+    }
+    p
+    {
+        font-size: 17px;
+    }
+    form
+    {
+        margin-bottom: 20px;
+    }
+    .filtres, .filtre_content
+    {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        
+       margin:10px 20px 15px 10px;
+    }
+    img
+    {
+        padding: 0px;
+    }
+    .sur_vol, aside, .hebergement
+    {
+        margin-top: 25px;
+    }
+    .les_populaires
+    {
+        
+        height: 190px;
+        width: 90%;
+    }
+    aside
+    {
+        border-radius:2rem;
+        max-width:100%;
+        background-color: #F2F2F2;
+        width: 100%;
+    }
+    .image
+    {
+        max-width: 250px;
+        max-height: 180px;
+    } 
+    
+    .hebergement
+    {
+       order: 1; 
+       width: 100%; 
+       height: 600px;
+    }
+    .hebergement_et_plus
+    {
+        display: flex;
+        flex-flow: column wrap;
+        
+    }
+    
+    .activité_content
+    {
+        flex-flow: row wrap;
+        margin-left: 35px;
+        justify-content:center;
+    
+    }
+    #column
+    {
+        order:5;
+    }
+    #column1
+    {
+        order: 6;
+    }
+    .image_activ_2, .image_activ_1
+    {
+        max-width: 250px;
+        max-height:200px;
+        height: 130px;
+        padding: 5px;
+    }
+    .colonne_1
+    {
+        flex-flow: column nowrap;
+        justify-content: center;
+    }
+    
+    .activité_1, .activité_4, .activité_3, .activité_2, .activité_5, .activité_6
+    {
+        margin-top: 10px;
+        max-width: 260px;
+        max-height: 300px;
+        
+        width: 260px;
+        height: 180px;
+        margin-left: -10px;
+        
+    }
+    .footer_column
+    {
+        width: 100%;
+        margin: 25px;
+        text-align: justify;
+    }
+
+    .footer_section
+    {
+        display: flex;
+        background-color: #F2F2F2;
+        width: 100%;
+    }
+    .footer_font
+    {
+        font-size: 15px;
+        font-weight: lighter;
+    }
+    
+}
+
