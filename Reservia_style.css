@@ -4,6 +4,7 @@ body
     font-family: 'Raleway', sans-serif;
     text-align: justify;  
 }
+/*header section*/
 .logo_reservia
 {
     width: 110px;
@@ -37,12 +38,7 @@ a
     font-weight: bold;
     color: #0065fc;
 }
-.hotel_name
-{
-    font-size: 18px;
-    font-weight: bolder;
-    color: #0065fc; 
-}
+
 .heber_align
 {
     font-size: 14px;
@@ -70,6 +66,7 @@ h1
     font-size: 30px;
     font-weight: bolder;
 }
+/*search section*/
 button
 {
     border-radius: 0 1rem 1rem 0;
@@ -107,6 +104,7 @@ div i
     font-size: 20px;
     color: #0065FC;
 }
+/*Filtre Section*/
 .sur_vol:hover
 {
     cursor: pointer;
@@ -114,6 +112,7 @@ div i
     background-color: #DEEBFF;
     font-size: 16px;
     min-width: 155px;   
+    text-transform: uppercase;
 }
 .filtre_content
 {
@@ -149,6 +148,7 @@ div i
     display:flex;
     margin-top: 3%;
 }
+/*Info Section*/
 #info_icon
 {
     background-color:white;
@@ -179,6 +179,17 @@ div i
     font-weight: bolder;
     margin-left: 10px;
 }
+.hotel_name
+{
+    font-size: 18px;
+    font-weight: bolder;
+    color: #0065fc; 
+}
+.hotel_name:hover
+{
+    text-decoration: underline;
+}
+
 .hebergement
 {
     border-radius:2rem;
@@ -196,6 +207,7 @@ div i
     background-color: white;
     box-shadow: 2px 3px gainsboro;
 }
+/*Pour Deactive l'étoile Icon*/
 #disable_icon_1, #disable_icon_2, #disable_icon_3, #disable_icon_4, #disable_icon_5, #disable_icon_6, #disable_icon_7
 {
     color: grey;
@@ -349,6 +361,11 @@ aside
     height: 200px;
     margin-left: -20px;
     box-shadow: 2px 3px gainsboro;
+}
+.activity_name:hover
+{
+    text-decoration: underline;
+   
 }
 .footer_section
 {
