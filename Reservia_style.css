@@ -34,8 +34,8 @@ a
 {
     display: flex;
     align-items:center;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 23px;
+    font-weight: bolder;
     color: #0065fc;
 }
 
@@ -69,6 +69,7 @@ h1
 /*search section*/
 button
 {
+    cursor:pointer;
     border-radius: 0 1rem 1rem 0;
     min-width: 100px;
     min-height: 45px;
@@ -113,6 +114,7 @@ div i
     font-size: 16px;
     min-width: 155px;   
     text-transform: uppercase;
+    color: #0065FC;
 }
 .filtre_content
 {
@@ -207,6 +209,10 @@ div i
     background-color: white;
     box-shadow: 2px 3px gainsboro;
 }
+.les_hebergements:hover
+{
+    box-shadow: 3px 3px 8px rgb(85, 84, 84);
+}
 /*Pour Deactive l'étoile Icon*/
 #disable_icon_1, #disable_icon_2, #disable_icon_3, #disable_icon_4, #disable_icon_5, #disable_icon_6, #disable_icon_7
 {
@@ -266,16 +272,12 @@ aside
     align-items: baseline;
     justify-content: space-around;
 }
-.les_plus_populaire 
+.les_plus_populaire, .content 
 {
     display: flex;
     flex-direction: column; 
 }
-.content
-{
-    display: flex;
-    flex-direction: column;
-}
+
 .les_populaires
 {
     display: flex;
@@ -284,6 +286,10 @@ aside
     box-shadow: 2px 3px gainsboro;
     margin: 25px;
     background-color: white;
+}
+.les_populaires:hover
+{
+    box-shadow: 2px 3px 8px rgb(85, 84, 84);
 }
 .image_populaire
 {
@@ -361,6 +367,10 @@ aside
     height: 200px;
     margin-left: -20px;
     box-shadow: 2px 3px gainsboro;
+}
+.activ_survol:hover
+{
+    box-shadow: 2px 3px 8px rgb(68, 67, 67);  
 }
 .activity_name:hover
 {
@@ -734,6 +744,7 @@ aside
         
         height: 190px;
         width: 90%;
+        padding:8px 0px 0px 8px;
     }
     aside
     {
