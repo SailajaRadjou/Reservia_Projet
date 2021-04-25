@@ -42,9 +42,9 @@ a
 .heber_align
 {
     font-size: 14px;
-    font-weight: lighter;
+    font-weight: bold;
     color: #0065fc;
-    margin-top: 0;
+    margin-top: -10px;
 }
 #align_header
 {
@@ -114,6 +114,7 @@ div i
     font-size: 16px;
     min-width: 155px;   
     text-transform: uppercase;
+    font-weight: bolder;
     color: #0065FC;
 }
 .filtre_content
@@ -135,9 +136,10 @@ div i
     border: 2px lightgray solid;
     border-left-width:0rem;
     border-radius: 2rem 2rem 2rem 2rem;
-    font-size: 15px;
+    font-size: 16px;
+    font-weight: bolder;
     padding-right: 5px;
-    min-width: 200px;
+    min-width: 220px;
     margin-left: 25px;
 }
 .filtres
@@ -214,7 +216,8 @@ div i
     box-shadow: 3px 3px 8px rgb(85, 84, 84);
 }
 /*Pour Deactive l'étoile Icon*/
-#disable_icon_1, #disable_icon_2, #disable_icon_3, #disable_icon_4, #disable_icon_5, #disable_icon_6, #disable_icon_7
+
+.disable_icon
 {
     color: grey;
 }
@@ -228,7 +231,7 @@ div i
 img
 {
     max-width: 100%;
-    max-height: 90px;
+    max-height: 120px;
     width: 100%;
     padding: 0px;
     border-radius: 2rem 2rem 0 0;
@@ -286,6 +289,7 @@ aside
     box-shadow: 2px 3px gainsboro;
     margin: 25px;
     background-color: white;
+    height: 150px;
 }
 .les_populaires:hover
 {
@@ -305,7 +309,8 @@ aside
 {
     border-radius:2rem 0 0 2rem;
     max-width: 120px;
-    max-height: 120px;
+    max-height: 140px;
+    padding: 5px;
 }
 .activité_content
 {
@@ -506,6 +511,11 @@ aside
     .hotel_name
     {
         font-size: 16px;
+        
+    }
+    .hotel_name_por
+    {
+        margin: -10px 0px 0px 18px;
     }
     .heber_align
     {
@@ -514,9 +524,10 @@ aside
         font-size: 16px;
         text-align: justify;
     }
-    #heber_align_1, #heber_align_2, #heber_align_3, #heber_align_4, #heber_align_5, #heber_align_6
+    
+    .heber_align_mob
     {
-        margin-top: -8px;
+        margin-top: -18px;
         margin-left: 20px;
     }
     .heber_title, .section_title, .affiche_plus
@@ -572,11 +583,7 @@ aside
         font-size: 15px;
         margin-left: 18px;
     }
-    figcaption
-    {
-        font-size: 15px;
-        margin-left: 20px;
-    }
+   
     .activité_content
     {
         display: flex;
@@ -744,7 +751,7 @@ aside
         
         height: 190px;
         width: 90%;
-        padding:8px 0px 0px 8px;
+        padding:8px 0px 8px 8px;
     }
     aside
     {
@@ -758,7 +765,19 @@ aside
         max-width: 250px;
         max-height: 180px;
     } 
-    
+    .hotel_name
+    {
+        font-size: 20px;
+    }
+    .heber_align_tab
+    {
+        margin: -25px 0px 0px 10px;
+    }
+    .hotel_name_por
+    {
+        font-size: 16px;
+        margin-top: 5px;
+    }
     .hebergement
     {
        order: 1; 
