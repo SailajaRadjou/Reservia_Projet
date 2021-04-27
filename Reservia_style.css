@@ -1,6 +1,6 @@
 body
 {
-    margin: 10px 200px 50px;
+    
     font-family: 'Raleway', sans-serif;
     text-align: justify;  
     
@@ -416,7 +416,7 @@ aside
 {
     body
     {
-        margin: 10px;
+       
         font-family: 'Raleway', sans-serif;
         text-align: justify;  
         font-size: 20px;
@@ -634,7 +634,7 @@ aside
     .footer_column
     {
         width: 80%;
-        margin: 0px;
+        
         text-align: justify;
     }
     .footer_font
@@ -650,7 +650,7 @@ aside
 {
     body
     {
-        margin: 10px 30px 50px;
+       
         font-family: 'Raleway', sans-serif;
         text-align: justify;  
     }
@@ -771,7 +771,7 @@ aside
     .footer_column
     {
         width: 100%;
-        margin: 25px;
+        
         text-align: justify;
     }
 
@@ -794,7 +794,7 @@ aside
 {
     body
     {
-        margin: 10px 30px 50px;
+        
         font-family: 'Raleway', sans-serif;
         text-align: justify;  
     }
