@@ -3,6 +3,7 @@ body
     margin: 10px 200px 50px;
     font-family: 'Raleway', sans-serif;
     text-align: justify;  
+    
 }
 /*header section*/
 .logo_reservia
@@ -30,6 +31,10 @@ li
     margin-left: 50px;
     line-height: 4em;
     text-align: center;
+}
+strong
+{
+    font-size: 18px;
 }
 a
 {
@@ -114,13 +119,12 @@ div i
 .sur_vol:hover
 {
     cursor: pointer;
-    border-radius: 2rem 2rem 2rem 2rem;
+    font-size: 17px;
     background-color: #DEEBFF;
-    font-size: 16px;
-    min-width: 155px;   
     text-transform: uppercase;
     font-weight: bolder;
     color: #0065FC;
+    border: 3px #0065FC solid;
 }
 .filtre_content
 {
@@ -192,7 +196,7 @@ div i
 {
     font-size: 20px;
     font-weight: bolder;
-    color: #0065fc; 
+     
 }
 .hotel_name:hover
 {
@@ -232,6 +236,10 @@ div i
     color: #0065FC;
     font-size: 15px;
     margin-left: 20px;
+}
+.hotel_name, .heber_align
+{
+    color: black;
 }
 img
 {
@@ -404,7 +412,7 @@ aside
     font-weight: lighter;
 }
 /* Responsive pour Mobile*/
-@media all and (min-width : 300px) and (max-width : 600px)
+@media all and (min-width : 300px) and (max-width : 700px)
 {
     body
     {
@@ -415,9 +423,9 @@ aside
     }
     .logo_reservia
     {
-        width: 90px;
-        height: 80px;
-        margin-left: 25px;
+        width: 100px;
+        height: 60px;
+       
     }
     #logo_header
     {
@@ -636,6 +644,151 @@ aside
     }
 }
 
+
+/* Responsive pour Tablettes*/
+@media screen and (min-width : 700px) and (max-width : 1024px)
+{
+    body
+    {
+        margin: 10px 30px 50px;
+        font-family: 'Raleway', sans-serif;
+        text-align: justify;  
+    }
+    .logo_reservia
+    {
+        width: 100px;
+        height:60px;
+    }
+    p
+    {
+        font-size: 17px;
+    }
+    form
+    {
+        margin-bottom: 20px;
+    }
+    .filtres, .filtre_content
+    {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        
+       margin:10px 20px 15px 10px;
+    }
+    img
+    {
+        padding: 0px;
+    }
+    .sur_vol, aside, .hebergement
+    {
+        margin-top: 25px;
+    }
+    .les_populaires
+    {
+        
+        height: 190px;
+        width: 90%;
+        padding:8px 0px 8px 8px;
+    }
+    aside
+    {
+        border-radius:2rem;
+        max-width:100%;
+        background-color: #F2F2F2;
+        width: 100%;
+    }
+    .image
+    {
+        max-width: 250px;
+        max-height: 180px;
+    } 
+    .hotel_name
+    {
+        font-size: 20px;
+    }
+    .heber_align_tab
+    {
+        margin: -25px 0px 0px 10px;
+        color: black;
+    }
+    .hotel_name_por
+    {
+        font-size: 17px;
+        margin: 5px 0px 10px 10px;
+    }
+    .hebergement
+    {
+       order: 1; 
+       width: 100%; 
+       height: 600px;
+    }
+    .hebergement_et_plus
+    {
+        display: flex;
+        flex-flow: column wrap;
+        
+    }
+    
+    .activité_content
+    {
+        flex-flow: row wrap;
+        margin-left: 35px;
+        justify-content:center;
+    
+    }
+    #column
+    {
+        order:5;
+    }
+    #column1
+    {
+        order: 6;
+    }
+    .image_activ_2, .image_activ_1
+    {
+        max-width: 250px;
+        max-height:200px;
+        height: 130px;
+        padding: 5px;
+    }
+    .colonne_1
+    {
+        flex-flow: column nowrap;
+        justify-content: center;
+    }
+    
+    .activité_1, .activité_4, .activité_3, .activité_2, .activité_5, .activité_6
+    {
+        margin-top: 10px;
+        max-width: 260px;
+        max-height: 300px;
+        
+        width: 260px;
+        height: 180px;
+        margin-left: -10px;
+        
+    }
+    .footer_column
+    {
+        width: 100%;
+        margin: 25px;
+        text-align: justify;
+    }
+
+    .footer_section
+    {
+        display: flex;
+        background-color: #F2F2F2;
+        width: 100%;
+    }
+    .footer_font
+    {
+        font-size: 15px;
+        font-weight: lighter;
+    }
+    
+}
+
 /* Responsive pour Ordinateur Portable(LAPTOP)*/
 @media screen and (min-width : 1024px) and (max-width : 1600px)
 {
@@ -714,146 +867,3 @@ aside
     }
 
 }
-/* Responsive pour Tablettes*/
-@media screen and (min-width : 600px) and (max-width : 1024px)
-{
-    body
-    {
-        margin: 10px 30px 50px;
-        font-family: 'Raleway', sans-serif;
-        text-align: justify;  
-    }
-    .logo_reservia
-    {
-        width: 100px;
-        height:60px;
-    }
-    p
-    {
-        font-size: 17px;
-    }
-    form
-    {
-        margin-bottom: 20px;
-    }
-    .filtres, .filtre_content
-    {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-between;
-        
-       margin:10px 20px 15px 10px;
-    }
-    img
-    {
-        padding: 0px;
-    }
-    .sur_vol, aside, .hebergement
-    {
-        margin-top: 25px;
-    }
-    .les_populaires
-    {
-        
-        height: 190px;
-        width: 90%;
-        padding:8px 0px 8px 8px;
-    }
-    aside
-    {
-        border-radius:2rem;
-        max-width:100%;
-        background-color: #F2F2F2;
-        width: 100%;
-    }
-    .image
-    {
-        max-width: 250px;
-        max-height: 180px;
-    } 
-    .hotel_name
-    {
-        font-size: 20px;
-    }
-    .heber_align_tab
-    {
-        margin: -25px 0px 0px 10px;
-    }
-    .hotel_name_por
-    {
-        font-size: 17px;
-        margin-top: 5px;
-    }
-    .hebergement
-    {
-       order: 1; 
-       width: 100%; 
-       height: 600px;
-    }
-    .hebergement_et_plus
-    {
-        display: flex;
-        flex-flow: column wrap;
-        
-    }
-    
-    .activité_content
-    {
-        flex-flow: row wrap;
-        margin-left: 35px;
-        justify-content:center;
-    
-    }
-    #column
-    {
-        order:5;
-    }
-    #column1
-    {
-        order: 6;
-    }
-    .image_activ_2, .image_activ_1
-    {
-        max-width: 250px;
-        max-height:200px;
-        height: 130px;
-        padding: 5px;
-    }
-    .colonne_1
-    {
-        flex-flow: column nowrap;
-        justify-content: center;
-    }
-    
-    .activité_1, .activité_4, .activité_3, .activité_2, .activité_5, .activité_6
-    {
-        margin-top: 10px;
-        max-width: 260px;
-        max-height: 300px;
-        
-        width: 260px;
-        height: 180px;
-        margin-left: -10px;
-        
-    }
-    .footer_column
-    {
-        width: 100%;
-        margin: 25px;
-        text-align: justify;
-    }
-
-    .footer_section
-    {
-        display: flex;
-        background-color: #F2F2F2;
-        width: 100%;
-    }
-    .footer_font
-    {
-        font-size: 15px;
-        font-weight: lighter;
-    }
-    
-}
-
