@@ -12,10 +12,15 @@ body
     width: 120px;
     height:50px;
 }
+.para_deco
+{
+    margin:35px;
+}
 .font_para
 {
     font-size:16px;
     font-weight: lighter;
+    
 }
 .deco
 {
@@ -69,6 +74,7 @@ nav a
 .premier_section
     {
         margin-top: 100px;
+        margin-left: 25px;
     }
 
 .heber_align
@@ -109,8 +115,9 @@ nav a:hover
 }
 h1
 {
-    font-size: 20px;
+    font-size: 28px;
     font-weight: bolder;
+    margin-left: 35px;
 }
 /*search section*/
 button
@@ -136,6 +143,7 @@ button
 .recherche
 {
     display: flex;
+    margin-left: 35px;
 }
 i
 {
@@ -166,7 +174,7 @@ div i
 .filtre_content
 {
     display: flex;
-    margin-top: 3%;
+    margin: 40px;;
 }
 .align_filtre
 {
@@ -186,17 +194,17 @@ div i
     font-weight: bolder;
     padding-right: 5px;
     min-width: 220px;
-   /* margin-left: 25px;*/
+    margin-left: 35px;
 }
 .filtres
 {
     display: flex;
-   /* margin-left: 20px;*/
+    margin-left: 25px;
 }
 .info_section
 {
     display:flex;
-    margin-top: 3%;
+    margin: 35px;
 }
 /*Info Section*/
 #info_icon
@@ -210,11 +218,18 @@ div i
     font-size: 20px;
     /*margin-left: 20px;*/
 }
-.aside_title, .section_title, .heber_title, .affiche_plus
+.section_title, .heber_title
 {
-    font-size: 22px;
+    font-size: 26px;
     font-weight: bolder;
-    margin-left: 25px;
+    margin-left: 55px;
+    color: black;
+}
+.aside_title
+{
+    font-size: 26px;
+    font-weight: bolder;
+    
     color: black;
 }
 .footer_title
@@ -231,6 +246,14 @@ div i
 }
 .hotel_name
 {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+     
+}
+.hotel_name_por
+{
+    margin-top: 10px;
     font-size: 18px;
     font-weight: bolder;
      
@@ -243,15 +266,15 @@ div i
 .hebergement
 {
     border-radius:2rem;
-    min-height: 500px;
-    width:70%;
+    min-height: 350px;
+    width:65%;
     background-color: #F2F2F2;
-    max-width: 1000px;
+    padding-top: 25px;
 }
 .les_hebergements
 {
-    /*margin:15px;*/
-    height: auto;
+    margin:20px;
+    height: 250px;
     border-radius:2rem;
     width:100%;
     background-color: white;
@@ -265,7 +288,7 @@ div i
 
 .disable_icon
 {
-    color: grey;
+    color: rgb(175, 173, 173);
 }
 .align_star
 {
@@ -276,12 +299,17 @@ div i
 }
 .hotel_name, .heber_align
 {
+    margin-left: 15px;
     color: black;
+}
+.heber_align_tab
+{
+    margin-top: -20px;
 }
 img
 {
     max-width: 100%;
-    max-height: 120px;
+    max-height: 140px;
     width: 100%;
     padding: 0px;
     border-radius: 2rem 2rem 0 0;
@@ -290,13 +318,22 @@ img
 .hebergement_content
 {
     display: flex;
-    /*margin-left: 10px;
-    margin-right: 10px;*/
+    margin-left: 25px;
+    margin-right: 25px;
+   
 } 
-/*.affiche_plus, .section_title
+.hebergement_content_1
 {
-    margin:20px;
-} */
+    margin-bottom: 20px;
+}
+.affiche_plus
+{
+    font-size: 26px;
+    font-weight: bolder;
+    color: black;
+    margin-top:70px;
+    margin-left:50px;
+}
 .fig_cap
 {
     flex-flow: column;
@@ -310,37 +347,44 @@ img
 .hebergement_et_plus
 {
     display: flex;
+    justify-content: space-around;
+    
 }
 aside
 {
     /*margin-left: auto;*/
     border-radius:2rem;
-    min-height: 500px;
+    min-height: 600px;
     width:30%;
     background-color: #F2F2F2;
-    max-width: 500px; 
+    max-width: 600px; 
 } 
 .aside_title, .hebergement_title
 {
     display: flex;
     align-items: baseline;
-    justify-content: space-around;
+    justify-content: space-between;
 }
-.les_plus_populaire, .content 
+.courbe
+{
+    padding-right: 45px;
+}
+.les_plus_populaire
 {
     display: flex;
     flex-direction: column; 
+    margin: 0px;
 }
 
 .les_populaires
 {
     display: flex;
-    /*margin-bottom: 15px;*/
+    margin:0px 30px 30px 25px;
     border-radius:2rem;
     box-shadow: 2px 3px gainsboro;
-    /*margin: 25px;*/
+    
     background-color: white;
-    height: 150px;
+    height: 200px;
 }
 .les_populaires:hover
 {
@@ -359,72 +403,74 @@ aside
 .image
 {
     border-radius:2rem 0 0 2rem;
-    max-width: 150px;
-    max-height: 140px;
-    padding: 5px;
+    max-width: 170px;
+    max-height: 190px;
+    padding: 8px;
     object-fit: cover;
 }
 .activité_content
 {
     display: flex;
     align-items:center;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-evenly;
+    
+    
 }
 .activité_1, .activité_4
 {
-    max-width: 360px;
-    max-height: 600px;
+    
     border: 1px solid gainsboro;
     border-radius: 2rem;
-    width: 360px;
-    height: 440px;
-    /*margin-left: -20px;*/
+    width: 400px;
+    height: 600px;
+    margin-left: 0px;
     box-shadow: 2px 3px gainsboro;
 }
 .image_activ_1
 {
-    max-width: 350px;
-    max-height: 350px;
-    height: 450px;
-    padding: 5px;
+    max-width: 400px;
+    max-height: 600px;
+    height: 550px;
+    
     object-fit: cover;
 }
 .image_activ_2
 {
-    max-width: 350px;
+    max-width: 400px;
     max-height:250px;
-    height: 150px;
-    padding: 5px;
+    height: 230px;
+    
     object-fit: cover;
 }
 .colonne_1
 {
   display: flex;
   flex-direction: column;
+  
 }
 .activité_2, .activité_5, .activité_6
 {
    /* margin-top: 20px;*/
     /*max-width: 360px;*/
-    max-height: 350px;
+    /*max-height: 550px;*/
     border: 1px solid #ccc;
     border-radius: 2rem;
-    width: 360px;
-    height: 200px;
-    /*margin-left: -20px;*/
+    width: 400px;
+    height: 280px;
+    margin-left: -10px;
     box-shadow: 2px 3px gainsboro;
+    margin-right: 5px;
 }
 .activité_3
 {
     /*margin-top: 20px;*/
     
-    max-height: 200px;
+    /*max-height: 200px;*/
     border: 1px solid #ccc;
     border-radius: 2rem;
-    width: 360px;
-    height: 200px;
-   /* margin-left: -20px;*/
+    width: 400px;
+    height: 280px;
+    margin-left: -10px;
     box-shadow: 2px 3px gainsboro;
 }
 .activ_survol:hover
