@@ -1,7 +1,7 @@
 body
 {
     font-family: 'Raleway', sans-serif;
-    text-align: justify;  
+    
 }
 /*header section*/
 .logo_reservia
@@ -11,12 +11,17 @@ body
 }
 .para_deco
 {
-    margin:35px;
+    margin:20px;
 }
 .font_para
 {
-    font-size:16px;
-    font-weight: lighter;
+    font-size:18px;
+    font-weight: bolder;
+}
+.filter_name
+{
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .deco
 {
@@ -55,7 +60,8 @@ nav a, .inscrire
     font-weight: bolder;
     color: #0065fc;
     background-color: white;
-    margin-top: 1px;
+    margin: 0px 0px 25px 30px;
+    padding-top: 20px;
 }
 .tête
 {
@@ -66,8 +72,8 @@ nav a, .inscrire
 }
 .premier_section
 {
-    margin-top: 100px;
-    margin-left: 25px;
+   
+    margin: 100px 0px 30px 20px;
 }
 .heber_align
 {
@@ -79,6 +85,7 @@ nav a, .inscrire
 {
     padding-top: 20px;
     align-items: center;
+    padding-right: 100px;
 }
 #align_header
 {
@@ -101,19 +108,25 @@ h1
 {
     font-size: 28px;
     font-weight: bolder;
-    margin-left: 35px;
+    margin-left: 20px;
 }
 /*search section*/
 button
 {
     cursor:pointer;
     border-radius: 0 1rem 1rem 0;
-    min-width: 100px;
     min-height: 45px;
     font-weight:lighter;
-    font-size: 18px;
+    font-size: 5px;
     background-color:#0065FC;
     color: #F2F2F2;
+    width: 135px;
+    border: none;
+}
+#icon_map
+{
+    padding: 13px 19px;  
+    font-size: 22px;
 }
 .icon_search
 {
@@ -127,30 +140,37 @@ button
     flex-flow: column wrap;
     min-width: 100px;
     min-height: 45px;
-    font-weight:lighter;
-    font-size: 18px;
+    font-size: 16px;    
     border-color: lightgray transparent;
     text-align: justify;
-    
+    font-weight: bolder;
 }
 .form_recherche
 {
     display: flex;
     flex-flow: row nowrap;
-    margin-left: 35px;
+    margin:30px 0px 30px 20px;
+    
+}
+.research
+{
+    padding-top: 10px;
+    font-weight: bolder;
+    font-size: 22px;
 }
 i
 {
     background-color: #F2F2F2;
-    padding: 14px 18px;
+    padding: 14px 17px;
     border-radius: 1rem 0 0 1rem;
     text-align: center;
+    
 }  
 div i
 {
     border-radius: 2rem 2rem 2rem 2rem; 
     background-color: #DEEBFF;
-    font-size: 20px;
+    font-size: 22px;
     color: #0065FC;
 }
 /*Filtre Section*/
@@ -167,7 +187,7 @@ div i
 .filtre_content
 {
     display: flex;
-    margin: 40px;;
+    margin:30px 0px 30px 20px;
 }
 .align_filtre
 {
@@ -192,12 +212,12 @@ div i
 .filtres
 {
     display: flex;
-    margin-left: 25px;
+    margin-left: 20px;
 }
 .info_section
 {
     display:flex;
-    margin: 35px;
+    margin-left: 20px;
 }
 /*Info Section*/
 #info_icon
@@ -208,8 +228,8 @@ div i
 }
 .info_texte
 {
-    font-size: 20px;
-    /*margin-left: 20px;*/
+    padding-left: 10px;
+    
 }
 .section_title, .heber_title
 {
@@ -285,6 +305,13 @@ div i
     font-size: 15px;
     margin-left: 20px;
 }
+.align_star_populaire
+{
+    display: flex;
+    color: #0065FC;
+    font-size: 18px;
+    margin: 30px; 
+}
 .hotel_name, .heber_align
 {
     margin-left: 15px;
@@ -292,14 +319,22 @@ div i
 }
 .heber_align_tab
 {
-    margin-top: -20px;
+    margin-top: -30px;
 }
-img
+.image_heberge
 {
     max-width: 100%;
     max-height: 140px;
+    width: 96%;
+    padding: 5px;
+    border-radius: 2rem 2rem 0 0;
+    object-fit: cover;
+}
+img
+{
+    max-width: 150%;
+    max-height: 140px;
     width: 100%;
-    padding: 0px;
     border-radius: 2rem 2rem 0 0;
     object-fit: cover;
 }
@@ -392,6 +427,10 @@ aside
     padding: 8px;
     object-fit: cover;
 }
+.activités
+{
+    padding-top: 40px;
+}
 .activité_content
 {
     display: flex;
@@ -459,10 +498,13 @@ aside
     margin: 0px;
     background-color: #F2F2F2;
     width: 100%;
+    text-align: justify;
+    padding: 20px;
 }
 .footer_column
 {
     width: 50%;
+    padding-left: 30px;
 }
 .footer_font
 {
@@ -476,28 +518,40 @@ aside
     {
         margin: 0px;
         font-family: 'Raleway', sans-serif;
-        text-align: justify;  
-        font-size: 20px;
+        font-weight: normal;
+        font-size: 22px;
     }
     .logo_reservia
     {
-        width: 100px;
+        width: 130px;
         height: 60px;
-       
+       padding-left: 15px;
+    }
+    section
+    {
+        margin-left: 0px;
+        margin-right:0px;
     }
     li
     {
-        padding-right: 0px;
+        padding: 0px;
+        margin-left: 0px;
     }
     #logo_header
     {
         flex-flow: row wrap;
         justify-content: space-between;
-        
+        margin: 0;
+    }
+    .para_deco
+    {
+        margin-left:30px;
     }
     .premier_section
     {
-        margin-top: 220px;
+        
+        margin-top: 185px;
+        margin-left: 0px;
     }
     #align_header
     {
@@ -509,32 +563,29 @@ aside
     .inscrire
     {
         
-        align-self: flex-end;
-        font-size: 25px;
+       
+        font-size: 20px;
+        
     }
-    /*.deco
-    {
-        padding:0px 25px 25px 25px;
-    }*/
+    
     #heber, #activ
     {
         border-top: none;
-        margin: 0rem;
         border-bottom: 4px solid #f2f2f2;
         color:black;
-       align-items: flex-end;
+       align-items: center;
        
     }
     .inscrire
     {
         
-        padding-right: 0px;
+        padding-right: 62px;
     
     }
     #heber, #activ
     {
         padding-left: 60px;
-        padding-right: 30px;
+        padding-right: 60px;
     }
 
     #heber:hover
@@ -546,41 +597,42 @@ aside
     
     h1
     {
-        font-size: 20px;
+        font-size: 24px;
         font-weight: bolder;
     }
     .font_para
     {
-        font-size:16px;
+        font-size:18px;
         font-weight: lighter;
     }
-    p
-    {
-        font-size: 18px;
-    }
+    
     form
     {
         width:100%
     }
     button
-{
-    
-    border-radius: 1rem 1rem 1rem 1rem;
-    min-width:60px;
-    width:60px;
-    min-height: 60px;
-    height: 60px;
-    font-size: 24px;
-    text-align:justify;
-    padding: 20px;
-}
+    {
+        display: flex;
+        flex-direction: column;
+        border-radius: 0rem 1rem 1rem 0rem;
+        max-height: 80px;
+        height: 55px;
+        width: 60px;
+        align-content: flex-start;
+        
+    }
+    #icon_cherche
+    {
+       margin-top: -25px;
+    }
    
     .icon_search
     {
         visibility: visible;
         color:white;
         background-color: #0065FC;
-        text-align: center;
+        font-size: 25px;
+        
     }
     .research
     {
@@ -593,9 +645,29 @@ aside
         margin:0px;
        margin-bottom: 15px;
     }
+    .align_filtre
+    {
+        padding: 40px 10px 0px 35px;
+        font-size: 23px;
+    }
     .sur_vol
     {
         margin-top: 25px;
+    }
+    #economique_filtre, #famillial_filtre, #romantique_filtre, #animal_filtre 
+    {
+        padding-right: 6px;
+        min-width: 90px;
+        margin-left: 30px;
+    }  
+    #info_icon
+    {
+        padding: 6px 10px;
+        
+    }  
+    .info_icon
+    {
+        align-self: center;
     }
     aside
     {
@@ -683,7 +755,7 @@ aside
     }  
     img
     {
-        max-width: 100%;
+        max-width: 150%;
         max-height: 90px;
         width: 97%;
         padding: 10px;

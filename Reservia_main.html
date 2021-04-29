@@ -11,7 +11,7 @@
     <body class="main">
         <!--Header Section  START-->
         <header class="tête" id="logo_header">
-            <div><img src="logo/Reservia@3x.png" alt="Logo Reservia" class="logo_reservia"/></div>
+            <img src="logo/Reservia@3x.png" alt="Logo Reservia" class="logo_reservia"/>
             <nav id="align_header">
                 <ul class="deco">
                     <li> <a href="#heberge_section" class="deco" id="heber">Hebergement</a></li>
@@ -28,11 +28,11 @@
              <p class="font_para para_deco">En plein centre de ville ou en pleine nature</p>
              <!--Recherche  START-->
              <form class="form_recherche" action="#" method="POST">
-                 <i class="fas fa-map-marker-alt"></i>
+                 <i id="icon_map" class="fas fa-map-marker-alt"></i>
                  <input type="text" class="search" placeholder="Marseille, France" />
                  <button type="submit" name="search">
-                     <div class="research">Recherche</div> 
-                    <div class=""><i class="fas fa-search icon_search"></i></div>
+                     <span class="research">Rechercher</span> 
+                    <span id="icon_cherche" class="fas fa-search icon_search"></span>
                     </button>
              </form>
              <!--Recherche  END-->
@@ -43,19 +43,19 @@
                  <div class="filtres">
                     <div id="economique_filtre" class="sur_vol">
                         <i class="fas fa-money-bill-wave"></i>
-                        <p>Economique</p>
+                        <p class="filter_name">Economique</p>
                     </div>
                     <div id="famillial_filtre" class="sur_vol">
                         <i class="fas fa-child"></i> 
-                        <p>Famillial</p>
+                        <p class="filter_name">Famillial</p>
                     </div>
                     <div id="romantique_filtre" class="sur_vol">
                         <i class="fas fa-heart"></i>
-                        <p>Romantique</p>
+                        <p class="filter_name">Romantique</p>
                     </div>
                     <div id="animal_filtre" class="sur_vol">
                         <i class="fas fa-dog"></i>
-                        <p>Animaux Autorisés</p>
+                        <p class="filter_name">Animaux Autorisés</p>
                     </div>
                 </div>
              </div>
@@ -63,7 +63,7 @@
 
              <!--Info Section  START-->
              <div class="info_section">
-                  <div><i class="fas fa-info" id="info_icon"></i></div>
+                 <div class="info_icon"> <i class="fas fa-info" id="info_icon"></i></div>
                   <div class="info_texte">  
                     <p class="font_para">
                         Plus de 500 logements sont disponibles dans cette ville
@@ -84,7 +84,7 @@
                 <div class="hebergement_content">
                     <div class="les_hebergements">
                         <a href="#" class="fig_cap">
-                        <img src="hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge La Cannebière" />
+                        <img src="hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge La Cannebière" class="image_heberge" />
                         <p class="hotel_name hotel_name_por">Auberge La Cannebière</p></a>
                         <p class="heber_align heber_align_tab heber_align_mob font_para" id="heber_align_1">Nuit à partir de <strong>25€</strong></p>
                         <div class="align_star">
@@ -96,7 +96,7 @@
                         </div>
                     </div> 
                     <div class="les_hebergements">
-                        <a href="#" class="fig_cap"><img src="hebergements/1_xlarge/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hotel du Port" />
+                        <a href="#" class="fig_cap"><img src="hebergements/1_xlarge/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hotel du Port" class="image_heberge"/>
                         <p class="hotel_name hotel_name_por">Hotel du Port</p></a>
                         <p class="heber_align heber_align_tab heber_align_mob font_para" id="heber_align_2">Nuit à partir de <strong> 52€</strong></p>
                         
@@ -109,7 +109,7 @@
                         </div>
                     </div>
                     <div class="les_hebergements">
-                        <a href="#" class="fig_cap"><img src="hebergements/1_xlarge/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hotel des Mouettes" />
+                        <a href="#" class="fig_cap"><img src="hebergements/1_xlarge/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hotel des Mouettes" class="image_heberge" />
                         <p class="hotel_name hotel_name_por">Hotel des Mouettes</p></a>
                         <p class="heber_align heber_align_tab heber_align_mob font_para" id="heber_align_3">Nuit à partir de<strong> 76€</strong></p>
                         <div class="align_star">
@@ -123,7 +123,7 @@
                 </div>
                 <div class="hebergement_content hebergement_content_1">
                     <div class="les_hebergements">
-                        <a href="#" class="fig_cap"><img src="hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hotel de la Mer" />
+                        <a href="#" class="fig_cap"><img src="hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hotel de la Mer" class="image_heberge"/>
                         <p class="hotel_name hotel_name_por">Hotel de la Mer</p></a>
                         <p class="heber_align heber_align_tab heber_align_mob font_para" id="heber_align_4">Nuit à partir de<strong> 46€</strong></p>
                         <div class="align_star">
@@ -135,7 +135,7 @@
                         </div>
                     </div>
                     <div class="les_hebergements">
-                        <a href="#" class="fig_cap"><img src="hebergements/1_xlarge/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge Le Panier" />
+                        <a href="#" class="fig_cap"><img src="hebergements/1_xlarge/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge Le Panier" class="image_heberge" />
                         <p class="hotel_name hotel_name_por">Auberge Le Panier</p></a>
                         <p class="heber_align heber_align_tab heber_align_mob font_para" id="heber_align_5">Nuit à partir de<strong>23€</strong> </p>
                         <div class="align_star">
@@ -147,7 +147,7 @@
                         </div>
                     </div>
                     <div class="les_hebergements">
-                        <a href="#" class="fig_cap"><img src="hebergements/1_xlarge/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hotel Chez Amina" />
+                        <a href="#" class="fig_cap"><img src="hebergements/1_xlarge/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hotel Chez Amina" class="image_heberge" />
                         <p class="hotel_name hotel_name_por">Hotel Chez Amina</p></a>
                         <p class="heber_align heber_align_tab heber_align_mob font_para" id="heber_align_6">Nuit à partir de<strong> 96€</strong></p>
                         <div class="align_star">
@@ -178,7 +178,7 @@
                                         <p class="hotel_name">Hotel Le Soleil du Matin</p>
                                         <p class="heber_align font_para">Nuit à partir de<strong> 128€</strong></p>
                                     </div>
-                                    <div class="align_star">
+                                    <div class="align_star align_star_populaire">
                                         <div class="fas fa-star"></div>
                                         <div class="fas fa-star"></div>
                                         <div class="fas fa-star"></div>
@@ -194,10 +194,10 @@
                             <img class="image" src="hebergements/1_xlarge/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au Coeur de l'eau Chambres d'hôtes" />
                             <div class="content_icon">
                                 <div class="content">
-                                    <p class="hotel_name">Au Coeur de l'eau <br />Chambres d'hôtes</p>
+                                    <p class="hotel_name">Au Coeur de l'eau Chambres d'hôtes</p>
                                     <p class="heber_align font_para">Nuit à partir de<strong> 71€</strong></p>
                                 </div>
-                                <div class="align_star">
+                                <div class="align_star align_star_populaire">
                                     <div class="fas fa-star"></div>
                                     <div class="fas fa-star"></div>
                                     <div class="fas fa-star"></div>
@@ -215,7 +215,7 @@
                                     <p class="hotel_name">Hotel Tout Bleu et Blanc</p>
                                     <p class="heber_align font_para">Nuit à partir de<strong> 68€</strong></p>
                                 </div>
-                                <div class="align_star">
+                                <div class="align_star align_star_populaire">
                                     <div class="fas fa-star"></div>
                                     <div class="fas fa-star"></div>
                                     <div class="fas fa-star"></div>
