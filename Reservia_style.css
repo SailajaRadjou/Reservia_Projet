@@ -1,7 +1,7 @@
 body
 {
     font-family: 'Raleway', sans-serif;
-    
+    margin:0px;
 }
 /*header section*/
 .logo_reservia
@@ -411,7 +411,7 @@ aside
     display: flex;
     flex-direction: column;
 }
-.image
+#image
 {
     border-radius:2rem 0 0 2rem;
     max-width: 170px;
@@ -511,11 +511,11 @@ aside
     font-weight: lighter;
 }
 /* Responsive pour Mobile*/
-@media all and (min-width : 300px) and (max-width : 700px)
+@media screen and (min-width : 300px) and (max-width : 700px)
 {
     body
     {
-        margin: 0px;
+        margin: auto;
         font-family: 'Raleway', sans-serif;
         font-weight: normal;
         font-size: 22px;
@@ -528,8 +528,8 @@ aside
     }
     section
     {
-        margin-left: 0px;
-        margin-right:0px;
+        margin-left: auto;
+        margin-right:auto;
     }
     li
     {
@@ -673,10 +673,10 @@ aside
     aside
     {
         border-radius:0;
-        max-width:100%;
-        width:100%;
+        width:auto;
         height:660px;
         background-color: #F2F2F2;
+       
     }
     .image
     {
@@ -699,11 +699,15 @@ aside
         height: 160px;
         max-width: 100%;
     }
-    
+    #image
+    {
+        width: auto;
+        height:auto
+    }
     .hotel_name
     {
         font-size: 18px;
-        
+        margin: revert;
     }
     .hotel_name_por
     {
@@ -733,10 +737,11 @@ aside
     {
         margin: 0;
         border-radius:2rem;
+        max-width: 100%;
         min-height: 500px;
         width:100%;
         background-color:white;
-        max-width: 100%;
+        
     }
     .les_hebergements
     {
@@ -827,7 +832,7 @@ aside
 
 
 /* Responsive pour Tablettes*/
-@media screen and (min-width : 700px) and (max-width : 1024px)
+@media screen and (min-width : 700px) and (max-width : 1025px)
 {
     .logo_reservia
     {
@@ -907,10 +912,8 @@ aside
     }
     aside
     {
-        border-radius:2rem;
-        max-width:100%;
-        background-color: #F2F2F2;
-        width: 100%;
+       max-width: 100%;
+       width:auto;
     }
     .courbe
     {
@@ -924,13 +927,7 @@ aside
     {
         margin:8px 5px;
     }
-    .image
-    {
-        max-width: 300px;
-        max-height: 200px;
-        width: 270px;
-        padding: 0px;
-    } 
+   
     .hebergement_content
     {
         margin-left: 5px;
@@ -982,6 +979,10 @@ aside
         display: flex;
         flex-flow: column wrap;
         
+    }
+    .affiche_plus
+    {
+        margin-left: 22px;
     }
     .activités
     {
@@ -1051,28 +1052,63 @@ aside
 }
 
 /* Responsive pour Ordinateur Portable(LAPTOP)*/
-@media screen and (min-width : 1024px) and (max-width : 1600px)
+@media all and (min-width : 1025px) and (max-width : 1600px)
 {
+    body
+    {
+        margin: auto;
+    }    
    .logo_reservia
     {
         width: 120px;
         height:60px;
         padding-left:15px;
     }
+    section
+    {
+        margin-left: 0px;
+        margin-right:20px;
+    }
     
     img
     {
         padding: 0px;
     }
-    
+    aside
+    {
+        width:min-content;
+    }
+    .les_populaires
+    {
+       
+        width: auto;
+    }
+    .hotel_name, .heber_align
+    {
+        margin-left: 10px;
+        
+    }
+    .hotel_name
+    {
+       
+        font-size: 18px;
+        
+    }
+    .align_star_populaire
+    {
+       font-size: 20px;
+       margin-left: 10px;
+       padding-right: 25px;
+    }
     .activité_1, .activité_4
     {
-        max-width: 100%;
-        width: 330px;
-        height: 530px;
-        margin-left: 0px;
-        margin-right: 10px;
+       
+        width: auto;
+        height: auto;
+        margin-left: revert;
+        margin-right: revert;
     }
+    
     .image_activ_1
     {
         max-width: 100%;
@@ -1087,17 +1123,16 @@ aside
     }
     .activité_2, .activité_5, .activité_6
     {
-        max-width: 100%;
-        width: 330px;
-        height: 250px;
-        margin-right: 0;
+       
+        width: auto;
+        height: auto;
+        margin-right:auto;
     }
     .activité_3
     {
-        max-width: 100%;
-        margin-right: 0;
-        width: 330px;
-        height: 250px;
+        margin-right: auto;
+        width: auto;
+        height: auto;
     }
 
 }
