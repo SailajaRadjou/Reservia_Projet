@@ -567,7 +567,7 @@ aside
         order:3;
         position: relative;
         justify-content: center;
-       /* padding-left: 15px;*/
+        padding-left: 5px;
     }
     .deco
     {
@@ -577,7 +577,7 @@ aside
   
     .inscrire
     {
-        /*padding-right: 25px; */
+        padding-right: 65px; 
        align-self: flex-end;
         font-size: 20px;
         
@@ -589,7 +589,7 @@ aside
         border-bottom: 4px solid #f2f2f2;
         color:black;
        align-items: flex-start;
-       padding-left: 70px;
+       padding-left: 40px;
         padding-right: 45px;
         padding-bottom: 10px;
     }
