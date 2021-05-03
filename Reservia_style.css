@@ -31,7 +31,7 @@ body
     list-style-type : none;
     line-height: 4.5rem;
    padding-left: 25px;
-   padding-right: 25px;
+   padding-right: 5px;
    color: black;
 }
 
@@ -65,6 +65,7 @@ li
     color: #0065fc;
     padding-top: 20px;
     height: 40px;
+    padding-right: 20px;
 }
 
 a, .inscrire
@@ -262,7 +263,7 @@ div i
 }
 .hotel_name_por
 {
-    margin-top: 10px;
+    margin-top: 4px;
     font-size: 22px;
     font-weight: bolder;
 }
@@ -524,6 +525,7 @@ aside
         font-family: 'Raleway', sans-serif;
         font-weight: normal;
         font-size: 22px;
+        padding-right: 20px;
     }
     .logo_reservia
     {
@@ -563,7 +565,7 @@ aside
         order:3;
         position: relative;
         justify-content: center;
-        padding-left: 5px;
+        padding-left: 20px;
     }
     .deco
     {
@@ -573,7 +575,7 @@ aside
   
     .inscrire
     {
-        padding-right: 30px; 
+        padding-right: 0px; 
        align-self: flex-end;
         font-size: 20px;
         
@@ -698,7 +700,7 @@ aside
     }
     .les_populaires
     {
-        margin: 10px 25px;
+        margin: 10px 20px;
         font-size: 12px;
         height: 160px;
         max-width: 100%;
@@ -846,6 +848,7 @@ aside
     .inscrire
     {
         font-size: 20px;
+        padding-right: 4rem;
     }
     .deco
     {
@@ -916,7 +919,7 @@ aside
     }
     aside
     {
-       max-width: 100%;
+       max-width: 97%;
        width:auto;
     }
     .courbe
@@ -936,6 +939,7 @@ aside
     {
         margin-left: 5px;
         margin-right: 6px;
+        padding: 10px;
     }
     .hotel_name
     {
@@ -974,7 +978,7 @@ aside
     .hebergement
     {
        order: 1; 
-       width: 100%; 
+       width: 97%; 
        max-height: 800px;
        height: 750px;
     }
@@ -1042,7 +1046,7 @@ aside
 
     .footer_section
     {
-        margin-left: -10px;
+        margin-left: 0px;
         display: flex;
         background-color: #F2F2F2;
         width: 100%;
