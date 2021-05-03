@@ -16,8 +16,8 @@ body
 }
 .font_para
 {
-    font-size:18px;
-    font-weight: bolder;
+    font-size:21px;
+    
 }
 .filter_name
 {
@@ -34,6 +34,7 @@ body
    padding-right: 25px;
    color: black;
 }
+
 .inscrire
 {
     display:flex;
@@ -41,7 +42,8 @@ body
     padding-right: 50px;
     font-size: 20px;
     align-items: center;
-    color:  #0065fc
+    color:  #0065fc;
+    
 }
 nav
 {
@@ -52,41 +54,27 @@ li
     display: flex;
     align-self: center;
 }
-strong
-{
-    font-size: 18px;
-}
-nav a, .inscrire
-{
-    text-decoration: none;
-}
+
+
 #logo_header
 {
     display:flex;
     justify-content:space-between;
     align-items:center;
     font-size: 20px;
-    font-weight: bolder;
     color: #0065fc;
     padding-top: 20px;
-    background-color: white;
     height: 40px;
 }
-.tête_fixe
-{
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width:100%
-}
-a
+
+a, .inscrire
 {
     text-decoration: none;
 }
 
 .premier_section
 {
-    margin: 100px 0px 30px 20px;
+    margin: 50px 0px 30px 20px;
 }
 .heber_align
 {
@@ -123,12 +111,15 @@ button
     cursor:pointer;
     border-radius: 0 1rem 1rem 0;
     min-height: 45px;
-    font-weight:lighter;
     font-size: 5px;
     background-color:#0065FC;
     color: #F2F2F2;
-    width: 135px;
+    width: 150px;
     border: none;
+}
+button:focus
+{
+    border:2px #0065fc ridge;
 }
 #icon_map
 {
@@ -151,6 +142,7 @@ button
     border-color: lightgray transparent;
     text-align: justify;
     font-weight: bolder;
+    color:black;
 }
 .form_recherche
 {
@@ -162,7 +154,6 @@ button
 .research
 {
     padding-top: 10px;
-    font-weight: bolder;
     font-size: 22px;
 }
 i
@@ -177,7 +168,7 @@ div i
 {
     border-radius: 2rem 2rem 2rem 2rem; 
     background-color: #DEEBFF;
-    font-size: 22px;
+    font-size: 28px;
     color: #0065FC;
 }
 /*Filtre Section*/
@@ -210,10 +201,10 @@ div i
     border: 2px lightgray solid;
     border-left-width:0rem;
     border-radius: 2rem 2rem 2rem 2rem;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bolder;
     padding-right: 5px;
-    min-width: 220px;
+    min-width: 212px;
     margin-left: 35px;
 }
 .filtres
@@ -241,7 +232,7 @@ div i
 .section_title, .heber_title
 {
     font-size: 26px;
-    font-weight: bolder;
+    
     margin-left: 55px;
     color: black;
 }
@@ -253,12 +244,12 @@ div i
 }
 .footer_title
 {
-    font-size: 20px;
-    font-weight: bolder; 
+    font-size: 22px;
+    
 }
 .activity_name
 {
-    font-size: 16px;
+    font-size: 18px;
     color: black;
     font-weight: bolder;
     padding: 15px;
@@ -266,13 +257,13 @@ div i
 .hotel_name
 {
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bolder;
 }
 .hotel_name_por
 {
     margin-top: 10px;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bolder;
 }
 .hotel_name:hover
@@ -325,6 +316,11 @@ div i
     margin-left: 15px;
     color: black;
 }
+.heber_align
+{
+    font-weight: normal;
+    font-size: 16px;
+}
 .heber_align_tab
 {
     margin-top: -30px;
@@ -352,7 +348,7 @@ div i
 }
 .affiche_plus
 {
-    font-size: 26px;
+    font-size: 22px;
     font-weight: bolder;
     color: black;
     margin-top:70px;
@@ -516,7 +512,7 @@ aside
 }
 .footer_font
 {
-    font-size: 15px;
+    font-size: 18px;
     font-weight: lighter;
 }
 /* Responsive pour Mobile*/
@@ -559,7 +555,7 @@ aside
     .premier_section
     {
         
-        margin-top: 160px;
+        margin-top: 20px;
         margin-left: 0px;
     }
     #align_header
@@ -577,7 +573,7 @@ aside
   
     .inscrire
     {
-        padding-right: 65px; 
+        padding-right: 30px; 
        align-self: flex-end;
         font-size: 20px;
         
