@@ -2,6 +2,7 @@ body
 {
     font-family: 'Raleway', sans-serif;
     margin:0px;
+    width:100%;
 }
 /*header section*/
 .logo_reservia
@@ -502,9 +503,9 @@ aside
     display: flex;
     margin: 0px;
     background-color: #F2F2F2;
-    width: 100%;
+    width: 96%;
     text-align: justify;
-    padding: 20px;
+    padding: 24px 41px 0px 20px;
 }
 .footer_column
 {
@@ -525,7 +526,8 @@ aside
         font-family: 'Raleway', sans-serif;
         font-weight: normal;
         font-size: 22px;
-        padding-right: 20px;
+        width:96%;
+        margin: 0px;
     }
     .logo_reservia
     {
@@ -566,6 +568,7 @@ aside
         position: relative;
         justify-content: center;
         padding-left: 20px;
+        width:79%;
     }
     .deco
     {
@@ -604,8 +607,9 @@ aside
     
     h1
     {
-        font-size: 24px;
+        font-size: 20px;
         font-weight: bolder;
+        text-align: left;
     }
     .font_para
     {
@@ -613,10 +617,7 @@ aside
         font-weight: lighter;
     }
     
-    form
-    {
-        width:100%
-    }
+    
     button
     {
         display: flex;
@@ -661,11 +662,15 @@ aside
     {
         margin-top: 25px;
     }
+    .form_recherche
+    {
+        margin: 30px 0px 30px 11px;
+    }
     #economique_filtre, #famillial_filtre, #romantique_filtre, #animal_filtre 
     {
         padding-right: 6px;
         min-width: 90px;
-        margin-left: 30px;
+       
     }  
     #info_icon
     {
@@ -679,7 +684,7 @@ aside
     aside
     {
         border-radius:0;
-        width:auto;
+        width:104%;
         height:660px;
         background-color: #F2F2F2;
        
@@ -703,7 +708,7 @@ aside
         margin: 10px 20px;
         font-size: 12px;
         height: 160px;
-        max-width: 100%;
+        max-width: 90%;
     }
     #image
     {
@@ -743,9 +748,8 @@ aside
     {
         margin: 0;
         border-radius:2rem;
-        max-width: 100%;
         min-height: 500px;
-        width:100%;
+        width:104%;
         background-color:white;
         
     }
@@ -822,11 +826,12 @@ aside
         display: flex;
         flex-direction: column;
         background-color: #F2F2F2;
+        padding: 0;
     }
     .footer_column
     {
-        width: 80%;
-        padding-left: 12px;
+        
+        
         text-align: justify;
     }
     .footer_font
@@ -1049,8 +1054,7 @@ aside
         margin-left: 0px;
         display: flex;
         background-color: #F2F2F2;
-        width: 100%;
-        padding:20px;
+        padding: 20px 0px 0px 30px;
     }
     .footer_font
     {
@@ -1142,6 +1146,10 @@ aside
         margin-right: auto;
         width: auto;
         height: auto;
+    }
+    .footer_section
+    {
+        width: 95%;
     }
 
 }
