@@ -525,20 +525,18 @@ aside
         margin: auto;
         font-family: 'Raleway', sans-serif;
         font-weight: normal;
-        font-size: 22px;
-        width:96%;
-        margin: 0px;
+        
     }
     .logo_reservia
     {
         width: 100px;
         height: 60px;
-       padding-left: 15px;
+       padding-left: 25px;
     }
     section
     {
-        margin-left: auto;
-        margin-right:auto;
+        margin-left: 0px;
+        margin-right:0px;
     }
     li
     {
@@ -551,6 +549,8 @@ aside
         justify-content: space-between;
         margin: 0;
         height:auto;
+        padding-right: 0px;
+        width: 85%;
     }
     .para_deco
     {
@@ -561,14 +561,15 @@ aside
         
         margin-top: 20px;
         margin-left: 0px;
+        margin-right: 0px;
     }
     #align_header
     {
         order:3;
         position: relative;
         justify-content: center;
-        padding-left: 20px;
-        width:79%;
+        padding-left: 27px;
+        width:78%;
     }
     .deco
     {
@@ -578,7 +579,7 @@ aside
   
     .inscrire
     {
-        padding-right: 0px; 
+        padding-right: 5px; 
        align-self: flex-end;
         font-size: 20px;
         
@@ -607,13 +608,14 @@ aside
     
     h1
     {
-        font-size: 20px;
+        font-size: 19px;
         font-weight: bolder;
         text-align: left;
+        margin-left: 10px;
     }
     .font_para
     {
-        font-size:18px;
+        font-size:17px;
         font-weight: lighter;
     }
     
@@ -640,7 +642,14 @@ aside
         color:white;
         background-color: #0065FC;
         font-size: 25px;
-        
+    }
+    .info_section
+    {
+        margin-left: 10px;
+    }
+    .info_texte
+    {
+        padding-left: 10px;
     }
     .research
     {
@@ -655,8 +664,8 @@ aside
     }
     .align_filtre
     {
-        padding: 18px 10px 0px 35px;
-        font-size: 23px;
+        padding: 18px 15px 10px 10px;
+        font-size: 18px;
     }
     .sur_vol
     {
@@ -664,7 +673,7 @@ aside
     }
     .form_recherche
     {
-        margin: 30px 0px 30px 11px;
+        margin: 30px 0px 30px 10px;
     }
     #economique_filtre, #famillial_filtre, #romantique_filtre, #animal_filtre 
     {
@@ -684,7 +693,7 @@ aside
     aside
     {
         border-radius:0;
-        width:104%;
+        width:100%;
         height:660px;
         background-color: #F2F2F2;
        
@@ -703,31 +712,36 @@ aside
         display: flex;
         flex-flow: column wrap;
     }
+    .les_plus_populaire
+    {
+        width:85%;
+    }
     .les_populaires
     {
-        margin: 10px 20px;
+        margin: 10px 15px;
         font-size: 12px;
         height: 160px;
-        max-width: 90%;
+        width: 100%;
     }
     #image
     {
-        width: auto;
+        width: 140px;
         height:auto
     }
     .hotel_name
     {
-        font-size: 18px;
+        font-size: 16px;
         margin: revert;
     }
     .hotel_name_por
     {
-        margin: -10px 0px 0px 18px;
+        margin: -5px 0px 0px 22px;
+        font-size: 18px;
     }
     .heber_align
     {
-        margin-top: -2px;
-        margin-left: 5px;
+        margin-top: 0px;
+        margin-left: 0px;
         font-size: 16px;
         text-align: justify;
     }
@@ -735,11 +749,11 @@ aside
     .heber_align_mob
     {
         margin-top: -18px;
-        margin-left: 20px;
+        margin-left: 22px;
     }
     .heber_title, .section_title, .affiche_plus
     {
-        font-size: 21px;
+        font-size: 20px;
         font-weight: bolder;
         margin-top: 20px;
         margin-left: 22px;
@@ -749,7 +763,7 @@ aside
         margin: 0;
         border-radius:2rem;
         min-height: 500px;
-        width:104%;
+        width:90%;
         background-color:white;
         
     }
@@ -757,7 +771,7 @@ aside
     {
         margin-bottom: 0px;
         height: 195px;
-        width: 90%;
+        width: 100%;
         
     }
     .hebergement_content
@@ -765,9 +779,8 @@ aside
         display: flex;
         flex-flow: column wrap;
         margin-left: 0px;
-        margin-right: 10px;
-        max-width: 100%;
-        width: 100%;
+        margin-right: 0px;
+        width: 90%;
         
     } 
     .image_heberge
@@ -788,12 +801,17 @@ aside
     }
      .align_star
     {
-        margin-top: -6px;
+        margin-top: -10px;
         text-align: justify;
-        font-size: 15px;
-        margin-left: 18px;
+        font-size: 14px;
+        margin-left: 22px;
     }
-   
+   .align_star_populaire
+   {
+       margin-left: 0px;
+       margin-top: 10px;
+       font-size: 16px;
+   }
     .activité_content
     {
         display: flex;
@@ -801,6 +819,7 @@ aside
         margin:0px;
        margin-bottom: 15px;
        font-size: 16px;
+       width:90%;
     }
     .image_activ_2, .image_activ_1
     {
@@ -826,12 +845,12 @@ aside
         display: flex;
         flex-direction: column;
         background-color: #F2F2F2;
-        padding: 0;
+        padding-left: 0px;
+        width:90%;
     }
     .footer_column
     {
-        
-        
+        width:75%;        
         text-align: justify;
     }
     .footer_font
