@@ -88,7 +88,7 @@ a, .inscrire
     display: flex;
     justify-content: flex-end;
     position: absolute;
-    width: 85%;
+    width: 86%;
 }
 section
 {
@@ -525,14 +525,13 @@ aside
         font-family: 'Raleway', sans-serif;
         font-weight: normal;
         font-size: 22px;
-       /* padding-right: 16px;
-        padding-left: 0px;*/
+        padding-right: 20px;
     }
     .logo_reservia
     {
         width: 100px;
         height: 60px;
-       padding-left: 25px;
+       padding-left: 15px;
     }
     section
     {
@@ -550,8 +549,6 @@ aside
         justify-content: space-between;
         margin: 0;
         height:auto;
-        padding-right: 15px;
-        width:365px;
     }
     .para_deco
     {
@@ -568,35 +565,23 @@ aside
         order:3;
         position: relative;
         justify-content: center;
-       /* padding-left: 5px;*/
-       width:105%;
+        padding-left: 20px;
     }
     .deco
     {
         line-height: normal;
-        /*padding-left: revert;*/
-        max-width: 400px;
+        padding-left: revert;
     }
   
     .inscrire
     {
-        padding-right: 5px; 
+        padding-right: 0px; 
        align-self: flex-end;
         font-size: 20px;
         
     }
     
-    #heber
-    {
-        border-top: none;
-        border-bottom: 4px solid #f2f2f2;
-        color:black;
-       align-items: flex-start;
-       padding-left: 35px;
-        padding-right: 50px;
-        padding-bottom: 10px;
-    }
-    #activ
+    #heber, #activ
     {
         border-top: none;
         border-bottom: 4px solid #f2f2f2;
@@ -679,7 +664,7 @@ aside
     #economique_filtre, #famillial_filtre, #romantique_filtre, #animal_filtre 
     {
         padding-right: 6px;
-        min-width: 155px;
+        min-width: 90px;
         margin-left: 30px;
     }  
     #info_icon
@@ -694,12 +679,16 @@ aside
     aside
     {
         border-radius:0;
-        width:109%;
+        width:auto;
         height:660px;
         background-color: #F2F2F2;
        
     }
-    
+    .image
+    {
+        max-width: 150px;
+        max-height: 180px;
+    } 
     .hebergement
     {
        order: 1; 
@@ -708,10 +697,6 @@ aside
     {
         display: flex;
         flex-flow: column wrap;
-    }
-    .les_plus_populaire
-    {
-        padding-right: 30px;
     }
     .les_populaires
     {
@@ -722,8 +707,7 @@ aside
     }
     #image
     {
-        max-width: 130px;
-        
+        width: auto;
         height:auto
     }
     .hotel_name
