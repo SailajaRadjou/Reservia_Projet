@@ -4,6 +4,10 @@ body
     margin:0px;
     width:100%;
 }
+html, body
+{
+    overflow-x: hidden;
+}
 /*header section*/
 .logo_reservia
 {
@@ -421,7 +425,7 @@ aside
 #image
 {
     border-radius:2rem 0 0 2rem;
-    max-width: 170px;
+    width: 170px;
     max-height: 190px;
     padding: 8px;
     object-fit: cover;
@@ -503,7 +507,7 @@ aside
     display: flex;
     margin: 0px;
     background-color: #F2F2F2;
-    width: 96%;
+    width: 98%;
     text-align: justify;
     padding: 24px 41px 0px 20px;
 }
@@ -520,8 +524,13 @@ aside
 /* Responsive pour Mobile*/
 @media screen and (min-width : 300px) and (max-width : 700px)
 {
+    html, body
+    {
+        overflow-x: hidden;
+    }
     body
     {
+        position: relative;
         margin: auto;
         font-family: 'Raleway', sans-serif;
         font-weight: normal;
@@ -550,15 +559,16 @@ aside
         margin: 0;
         height:auto;
         padding-right: 0px;
-        width: 85%;
+        width: 90%;
+        font-size: 18px;
     }
     .para_deco
     {
-        margin-left:30px;
+        margin-left:10px;
     }
     .premier_section
     {
-        
+        width:90%;
         margin-top: 20px;
         margin-left: 0px;
         margin-right: 0px;
@@ -567,9 +577,8 @@ aside
     {
         order:3;
         position: relative;
+        width:100%;
         justify-content: center;
-        padding-left: 27px;
-        width:78%;
     }
     .deco
     {
@@ -608,14 +617,14 @@ aside
     
     h1
     {
-        font-size: 19px;
+        font-size: 20px;
         font-weight: bolder;
         text-align: left;
         margin-left: 10px;
     }
     .font_para
     {
-        font-size:17px;
+        font-size:16px;
         font-weight: lighter;
     }
     
@@ -662,6 +671,10 @@ aside
         margin:0px;
        margin-bottom: 15px;
     }
+    div i
+    {
+        font-size: 16px;
+    }
     .align_filtre
     {
         padding: 18px 15px 10px 10px;
@@ -674,12 +687,13 @@ aside
     .form_recherche
     {
         margin: 30px 0px 30px 10px;
+        width:86%;
     }
     #economique_filtre, #famillial_filtre, #romantique_filtre, #animal_filtre 
     {
         padding-right: 6px;
         min-width: 90px;
-       
+        font-size: 14px;
     }  
     #info_icon
     {
@@ -698,11 +712,7 @@ aside
         background-color: #F2F2F2;
        
     }
-    .image
-    {
-        max-width: 150px;
-        max-height: 180px;
-    } 
+    
     .hebergement
     {
        order: 1; 
@@ -714,7 +724,7 @@ aside
     }
     .les_plus_populaire
     {
-        width:85%;
+        width:89%;
     }
     .les_populaires
     {
@@ -725,8 +735,8 @@ aside
     }
     #image
     {
-        width: 140px;
-        height:auto
+        min-width: 128px;
+        height:auto;
     }
     .hotel_name
     {
@@ -763,7 +773,7 @@ aside
         margin: 0;
         border-radius:2rem;
         min-height: 500px;
-        width:90%;
+        width:95%;
         background-color:white;
         
     }
@@ -819,7 +829,7 @@ aside
         margin:0px;
        margin-bottom: 15px;
        font-size: 16px;
-       width:90%;
+       width:95%;
     }
     .image_activ_2, .image_activ_1
     {
@@ -864,6 +874,14 @@ aside
 /* Responsive pour Tablettes*/
 @media screen and (min-width : 700px) and (max-width : 1025px)
 {
+    html, body
+    {
+        overflow-x: hidden;
+    }
+    body 
+    {
+        position: relative;
+    }
     .logo_reservia
     {
         width: 100px;
@@ -943,8 +961,8 @@ aside
     }
     aside
     {
-       max-width: 97%;
-       width:auto;
+       max-width: 100%;
+       width:100%;
     }
     .courbe
     {
@@ -1002,7 +1020,7 @@ aside
     .hebergement
     {
        order: 1; 
-       width: 97%; 
+       width: 100%; 
        max-height: 800px;
        height: 750px;
     }
@@ -1086,8 +1104,13 @@ aside
 /* Responsive pour Ordinateur Portable(LAPTOP)*/
 @media all and (min-width : 1025px) and (max-width : 1600px)
 {
+    html, body
+    {
+        overflow-x: hidden;
+    }
     body
     {
+        position: relative;
         margin: auto;
     }    
    .logo_reservia
@@ -1132,6 +1155,10 @@ aside
        margin-left: 10px;
        padding-right: 25px;
     }
+    .activité_content
+    {
+        width:98%;
+    }
     .activité_1, .activité_4
     {
        
@@ -1168,7 +1195,7 @@ aside
     }
     .footer_section
     {
-        width: 95%;
+        width: 98%;
     }
 
 }
