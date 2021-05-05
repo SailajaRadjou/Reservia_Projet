@@ -319,13 +319,14 @@ div i
 }
 .hotel_name, .heber_align
 {
-    margin-left: 15px;
+    
     color: black;
 }
 .heber_align
 {
     font-weight: normal;
     font-size: 16px;
+    margin-left: 15px;
 }
 .heber_align_tab
 {
@@ -422,7 +423,7 @@ aside
     display: flex;
     flex-direction: column;
 }
-#image
+.image_les_populaires
 {
     border-radius:2rem 0 0 2rem;
     width: 170px;
@@ -584,7 +585,7 @@ aside
     .deco
     {
         line-height: normal;
-        padding-left: revert;
+        padding-left:25px;
     }
   
     .inscrire
@@ -734,15 +735,16 @@ aside
         height: 160px;
         width: 100%;
     }
-    #image
+    .image_les_populaires
     {
-        min-width: 128px;
+        max-width: 125px;
         height:auto;
+        
     }
     .hotel_name
     {
         font-size: 16px;
-        margin: revert;
+        
     }
     .hotel_name_por
     {
@@ -1134,6 +1136,12 @@ aside
     {
         width:min-content;
     }
+    .image_les_populaires
+    {
+        max-width: 170px;
+        min-width: 170px;
+        
+    }
     .les_populaires
     {
        
@@ -1158,15 +1166,16 @@ aside
     }
     .activité_content
     {
+        padding-left: 20px;
         width:98%;
     }
     .activité_1, .activité_4
     {
        
-        width: auto;
+        width: 300px;
         height: auto;
-        margin-left: revert;
-        margin-right: revert;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     
     .image_activ_1
@@ -1184,14 +1193,16 @@ aside
     .activité_2, .activité_5, .activité_6
     {
        
-        width: auto;
-        height: auto;
-        margin-right:auto;
+        width: 300px;
+        height: 250px;
+        margin-right: 10px;
+        margin-left: 10px;
     }
     .activité_3
     {
-        margin-right: auto;
-        width: auto;
+        margin-right: 10px;
+        margin-left: 10px;
+        width: 300px;
         height: auto;
     }
     .footer_section
