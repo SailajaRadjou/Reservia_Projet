@@ -569,7 +569,7 @@ aside
     }
     .premier_section
     {
-        width:90%;
+        width:95%;
         margin-top: 20px;
         margin-left: 0px;
         margin-right: 0px;
@@ -674,7 +674,7 @@ aside
     }
     div i
     {
-        font-size: 16px;
+        font-size: 18px;
     }
     .align_filtre
     {
@@ -694,11 +694,11 @@ aside
     {
         padding-right: 6px;
         min-width: 90px;
-        font-size: 14px;
+        font-size: 15px;
     }  
     #info_icon
     {
-        padding: 6px 10px;
+        padding: 6px 12px;
         
     }  
     .info_icon
