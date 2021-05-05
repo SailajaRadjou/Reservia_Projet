@@ -265,6 +265,7 @@ div i
     margin-top: 20px;
     font-size: 22px;
     font-weight: bolder;
+    color: black;
 }
 .hotel_name_por
 {
@@ -317,21 +318,20 @@ div i
     font-size: 18px;
     margin: 30px; 
 }
-.hotel_name, .heber_align
+.hotel_name_por, .heber_align_tab
 {
-    
+    padding-left: 10px;
+    text-align: justify;
     color: black;
 }
 .heber_align
 {
     font-weight: normal;
     font-size: 16px;
-    margin-left: 15px;
+    margin-left: 20px;
+    color: black;
 }
-.heber_align_tab
-{
-    margin-top: -30px;
-}
+
 .image_heberge
 {
     max-width: 100%;
@@ -370,7 +370,7 @@ div i
     max-width: 100%;
     border-radius: 2rem 2rem 0 0;
     padding-right: 10px;
-}    
+}   
 .hebergement_et_plus
 {
     display: flex;
