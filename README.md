@@ -49,7 +49,7 @@ A noter que le responsive a été intégré directement dans le fichier CSS "Res
 La version du projet a été réalisée sur le navigateur firefox.
 Le code ne contient aucune erreur au validateur W3C HTML et CSS.
 Le code a été versionner sur GIT et déployé sur GITHUB a l'addresse suivante..
-            https://sailajaradjou.github.io/Reservia_Projet/
+             https://sailajaradjou.github.io/SailajaRadjou_2_16042021/
     
 Notes sur l'utilisation de mes outils :
 
