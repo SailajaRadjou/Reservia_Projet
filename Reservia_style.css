@@ -748,7 +748,7 @@ aside
     }
     .hotel_name_por
     {
-        margin: -5px 0px 0px 22px;
+        margin: -5px 0px 0px 18px;
         font-size: 18px;
     }
     .heber_align
@@ -761,8 +761,8 @@ aside
     
     .heber_align_mob
     {
-        margin-top: -18px;
-        margin-left: 22px;
+        margin-top: 5px;
+        margin-left: 18px;
     }
     .heber_title, .section_title, .affiche_plus
     {
@@ -817,12 +817,12 @@ aside
         margin-top: -10px;
         text-align: justify;
         font-size: 14px;
-        margin-left: 22px;
+        margin-left: 28px;
     }
    .align_star_populaire
    {
        margin-left: 0px;
-       margin-top: 10px;
+       margin-top: 6px;
        font-size: 16px;
    }
     .activité_content
