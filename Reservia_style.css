@@ -944,7 +944,7 @@ aside
     }
     .premier_section
     {
-        margin: 75px 20px 30px 20px;
+        margin: 30px 25px 0px 25px;
     }
     .sur_vol
     {
@@ -952,7 +952,7 @@ aside
     }
     .sur_vol, aside, .hebergement
     {
-        margin-top: 25px;
+        margin-top: 30px;
 
     }
     .les_populaires
@@ -966,6 +966,10 @@ aside
     {
        max-width: 100%;
        width:100%;
+    }
+    .image_les_populaires
+    {
+       width: 200px;
     }
     .courbe
     {
@@ -1031,7 +1035,7 @@ aside
     {
         display: flex;
         flex-flow: column wrap;
-        
+        padding: 10px 25px 30px 25px;
     }
     .affiche_plus
     {
