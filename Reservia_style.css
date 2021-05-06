@@ -1,4 +1,4 @@
-body
+.main
 {
     font-family: 'Raleway', sans-serif;
     margin:0px;
@@ -530,7 +530,7 @@ aside
     {
         overflow-x: hidden;
     }
-    body
+    .main
     {
         position: relative;
         margin: auto;
@@ -1006,19 +1006,19 @@ aside
     .align_star
     {
         font-size: 16px;
-        margin: 10px 15px;
+        margin: 10px 24px;
     }
    
     .heber_align_tab
     {
-        margin: -25px 0px 0px 15px;
+        margin: 0px 0px 0px 15px;
         color: black;
         font-size:14px;
     }
     .hotel_name_por
     {
-        font-size: 18px;
-        margin: 5px 0px 10px 15px;
+        font-size: 17px;
+        margin: 5px 0px 10px 14px;
     }
     .hebergement
     {
@@ -1082,12 +1082,10 @@ aside
     {
         padding:10px 20px;
     }
-    /*.footer_column
+    .footer_column
     {
-        width: 100%;
-        padding-left: 15px;
-        text-align: justify;
-    }*/
+        padding-left: 20px;
+    }
 
     .footer_section
     {
