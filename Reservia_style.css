@@ -87,6 +87,7 @@ a, .inscrire
     font-size: 14px;
     font-weight: bold;
     color: #0065fc;
+    padding-left: 10px;
 }
 #align_header
 {
@@ -266,12 +267,15 @@ div i
     font-size: 22px;
     font-weight: bolder;
     color: black;
+    padding-left: 10px;
 }
 .hotel_name_por
 {
     margin-top: 4px;
     font-size: 22px;
     font-weight: bolder;
+    color:black;
+    
 }
 .hotel_name:hover
 {
@@ -309,18 +313,19 @@ div i
     display: flex;
     color: #0065FC;
     font-size: 15px;
-    margin-left: 20px;
+    margin-top: 20px;
+    padding-left: 25px;
 }
 .align_star_populaire
 {
     display: flex;
     color: #0065FC;
     font-size: 18px;
-    margin: 30px; 
+    padding-left: 10px;
 }
 .hotel_name_por, .heber_align_tab
 {
-    padding-left: 10px;
+    padding-left: 25px;
     text-align: justify;
     color: black;
 }
