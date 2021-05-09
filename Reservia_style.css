@@ -266,7 +266,7 @@ div i
 .hotel_name_por
 {
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bolder;
     color:black;
     
@@ -742,7 +742,7 @@ aside
     .hotel_name
     {
         font-size: 16px;
-        
+        padding-left: 5px;
     }
     .hotel_name_por
     {
@@ -753,8 +753,9 @@ aside
     {
         margin-top: 0px;
         margin-left: 0px;
-        font-size: 16px;
+        font-size: 15px;
         text-align: justify;
+        padding-left: 5px;
     }
     
     .heber_align_mob
@@ -815,13 +816,14 @@ aside
         margin-top: -10px;
         text-align: justify;
         font-size: 14px;
-        margin-left: 28px;
+        margin-left: 16px;
     }
    .align_star_populaire
    {
        margin-left: 0px;
-       margin-top: 6px;
-       font-size: 16px;
+       margin-top: 0px;
+       font-size: 15px;
+       padding-left: 5px;
    }
     .activité_content
     {
@@ -988,6 +990,10 @@ aside
         margin-right: 6px;
         padding: 10px;
     }
+    .align_star_populaire
+    {
+        padding-left: 30px;
+    }
     .hotel_name
     {
         font-size: 22px;
@@ -1008,19 +1014,19 @@ aside
     .align_star
     {
         font-size: 16px;
-        margin: 10px 24px;
+        margin: 10px 5px;
     }
    
     .heber_align_tab
     {
-        margin: 0px 0px 0px 15px;
+        margin: 0px 0px 0px 5px;
         color: black;
         font-size:14px;
     }
     .hotel_name_por
     {
         font-size: 17px;
-        margin: 5px 0px 10px 14px;
+        margin: 5px 0px 10px 5px;
     }
     .hebergement
     {
@@ -1152,16 +1158,17 @@ aside
         margin-left: 10px;
         
     }*/
+    .hotel_name_por
+    {
+        font-size: 16px;
+    }
     .hotel_name
     {
-       
         font-size: 18px;
-        
     }
     .align_star_populaire
     {
        font-size: 20px;
-      
        padding-right: 25px;
     }
     .activité_content
