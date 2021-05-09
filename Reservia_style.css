@@ -118,10 +118,7 @@ button
     width: 150px;
     border: none;
 }
-button:focus
-{
-    border:2px #0065fc ridge;
-}
+
 #icon_map
 {
     padding: 13px 19px;  
