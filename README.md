@@ -10,7 +10,7 @@ Les hébergements peuvent également être filtrés par thématique, par exemple
 Éléments fournis par l'entreprise :
 
 Les maquettes à intégrer au format ordinateur et téléphone.
-Toutes les images présentes sur le site sont aussi livrés en different format Jpg(small, medium, large et X-large).
+Toutes les images présentes sur le site sont aussi livrés en differents tailles format Jpg(small, medium, large et X-large).
 Les icônes proviennent de la bibliothèque Font Awesome.
 Les couleurs de la charte sont le bleu #0065FC, et sa version plus claire #DEEBFF ainsi que le gris pour le fond #F2F2F2.
 La police est "Raleway".
@@ -38,11 +38,11 @@ Afin de faciliter le code, la maquette a été délimité en différentes partie
 
 Les balises de délimitations de zone dans la page :
 
-   L'entête du site avec HEADER
-   Le menu de navigation avec NAV
-   Les SECTIONs pour un découpage plus précis
-   Les contenus indépendants avec ARTICLE
-   Le contenir des informations complémentaires avec ASIDE  
+   L'entête du site avec HEADER.
+   Le menu de navigation avec NAV.
+   Les SECTIONs pour un découpage plus précis.
+   Les contenus indépendants avec ARTICLE.
+   Le contenir des informations complémentaires avec ASIDE.
    Le pied de page avec FOOTER.
 
 A noter que le responsive a été intégré directement dans le fichier CSS "Reservia_style.css"
