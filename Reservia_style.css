@@ -517,6 +517,12 @@ aside
 {
     font-size: 18px;
     font-weight: lighter;
+    color: black;
+}
+.footer_font:hover
+{
+    text-decoration: underline;
+    color: #0065FC;
 }
 /* Responsive pour Mobile*/
 @media screen and (min-width : 300px) and (max-width : 700px)
