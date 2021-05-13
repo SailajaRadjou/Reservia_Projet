@@ -123,6 +123,9 @@ button
 {
     padding: 13px 19px;  
     font-size: 22px;
+    background-color: #F2F2F2;
+    border-radius: 1rem 0 0 1rem;
+    text-align: center;
 }
 .icon_search
 {
@@ -154,20 +157,14 @@ button
     padding-top: 10px;
     font-size: 22px;
 }
-i
-{
-    background-color: #F2F2F2;
-    padding: 14px 17px;
-    border-radius: 1rem 0 0 1rem;
-    text-align: center;
-    
-}  
+
 div i
 {
     border-radius: 2rem 2rem 2rem 2rem; 
     background-color: #DEEBFF;
     font-size: 28px;
     color: #0065FC;
+    padding: 14px 17px;
 }
 /*Filtre Section*/
 .sur_vol:hover
